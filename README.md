@@ -16,9 +16,11 @@ reports with budget-exhaustion projections, and postmortems with automatic
 response
 metrics and per-severity MTTR aggregation with p90 percentiles, plus
 fleet-wide roll-ups across incident sets (report summaries, triage by
-severity, metrics by service) and bounded, reasoned alert silences. CLI and
+severity, metrics by service), bounded, reasoned alert silences, and
+burn-rate policy suggestion (--suggest emits the standard multi-window
+table for any SLO window). CLI and
 importable
-library, 202 unit tests,
+library, 210 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -42,13 +44,14 @@ JSON logs with per-line auto-detection, standard library only,
 
 Dependency-free workflow runner: JSON-defined DAGs of shell commands with
 retries and exponential backoff, per-attempt timeouts, fail-fast or
-continue-on-error semantics, parallel execution of independent steps, and a
+continue-on-error semantics, parallel execution of independent steps,
+conditional steps and subset runs, and a
 dry-run plan mode. Layered flow/step environment variables interpolate into
 commands with a strict pre-run check, and run reports show captured output
 tails (text or JSON, optionally written to a report file). Definitions are
 validated up front (duplicates, dangling dependencies, cycles) and run in
 deterministic topological order. Standard
-library only, 78 unit tests, CI across Python 3.10-3.13.
+library only, 92 unit tests, CI across Python 3.10-3.13.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
