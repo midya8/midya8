@@ -18,10 +18,12 @@ metrics and per-severity MTTR aggregation with p90 percentiles, plus
 fleet-wide roll-ups across incident sets (report summaries, triage by
 severity, metrics by service), bounded, reasoned alert silences, and
 burn-rate policy suggestion (--suggest emits the standard multi-window
-table for any SLO window), and postmortem action-item follow-through
-(open items per incident, stale-flagged and gate-able via exit codes). CLI and
+table for any SLO window), postmortem action-item follow-through
+(open items per incident, stale-flagged and gate-able via exit codes), and
+burn-rule time-series replay (firing intervals per rule over a timestamped
+series, for alert-policy tuning). CLI and
 importable
-library, 228 unit tests,
+library, 242 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -36,27 +38,29 @@ the 5xxs, hour-of-day pattern breakdowns, consecutive-bucket spike
 windows, throughput and fixed-bucket latency-distribution reports,
 response-size (bandwidth) analysis, baseline-log comparison, Apdex
 user-satisfaction scoring (overall and per-path, with a --min-apdex
-pipeline gate), and
+pipeline gate), a failing-path status pivot (per-endpoint status-code
+counts), and
 Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-231 unit tests.
+241 unit tests.
 
 **[flowkit](https://github.com/midya8/flowkit)**
 
 Dependency-free workflow runner: JSON-defined DAGs of shell commands with
 retries and exponential backoff, per-attempt timeouts, fail-fast or
 continue-on-error semantics, parallel execution of independent steps,
-conditional steps and subset runs, failure-triggered hook steps
-(trigger: on_failure) for cleanup/notify work, and a
+conditional steps and subset runs, end-phase hook steps
+(trigger: on_failure, on_success or finally) for outcome-pinned
+cleanup/notify work, and a
 dry-run plan mode. Layered flow/step environment variables interpolate into
 commands with a strict pre-run check, and run reports show captured output
 tails (text or JSON, optionally written to a report file, with full
 per-step logs on disk). Definitions are
 validated up front (duplicates, dangling dependencies, cycles) and run in
 deterministic topological order. Standard
-library only, 113 unit tests, CI across Python 3.10-3.13.
+library only, 123 unit tests, CI across Python 3.10-3.13.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
