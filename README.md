@@ -72,9 +72,9 @@ latency assertions, an append-only JSONL history with atomic retention,
 availability roll-ups with p50/p95 latency, per-day trends and
 window-over-window comparison, incident detection with a flap guard and a
 sustained-outage gate, a watch mode for cron-less hosts, and a
-self-contained HTML status-page renderer. `check` exits 1 on any failure
+self-contained HTML status-page renderer. SLO targets report error budget consumed and met-or-breached status, with a `--fail-slo` gate that exits 1 on breach. `check` exits 1 on any failure
 so cron doubles as alerting. Standard library only,
-83 unit tests running fully offline.
+98 unit tests running fully offline.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
