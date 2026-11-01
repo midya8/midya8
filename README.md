@@ -12,6 +12,12 @@ Dependency-free Python utilities for day-to-day SRE work: error-budget and
 burn-rate math, rule-based alert triage, and postmortem generation. CLI and
 importable library, 28 unit tests, CI across Python 3.10-3.13.
 
+**[loglens](https://github.com/midya8/loglens)**
+
+Access-log analysis for the first five minutes of an incident: error rate,
+status distribution, hottest failing paths, and the source IPs behind 5xxs.
+Parses nginx/Apache combined and JSON logs, standard library only.
+
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
 Website for the Kurdistan International Sociological Association in English,
