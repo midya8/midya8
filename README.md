@@ -16,9 +16,9 @@ reports with budget-exhaustion projections, and postmortems with automatic
 response
 metrics and per-severity MTTR aggregation with p90 percentiles, plus
 fleet-wide roll-ups across incident sets (report summaries, triage by
-severity, metrics by service). CLI and
+severity, metrics by service) and bounded, reasoned alert silences. CLI and
 importable
-library, 184 unit tests,
+library, 202 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -30,12 +30,13 @@ breakdowns, a 2xx/3xx/4xx/5xx status-class roll-up, method, user-agent and
 referer
 triage behind 5xxs, a listing of the individual requests behind
 the 5xxs, hour-of-day pattern breakdowns, consecutive-bucket spike
-windows, throughput and fixed-bucket latency-distribution reports, and
+windows, throughput and fixed-bucket latency-distribution reports,
+response-size (bandwidth) analysis, and
 Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-185 unit tests.
+200 unit tests.
 
 **[flowkit](https://github.com/midya8/flowkit)**
 
