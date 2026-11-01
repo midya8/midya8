@@ -9,10 +9,10 @@ agentic systems and workflow automation.
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
-burn-rate math with exhaustion projection, multi-window burn-rate alerting,
-rule-based alert triage, Markdown SLO status reports, and postmortem
-generation. CLI and importable library, 58 unit tests, CI across Python
-3.10-3.13.
+burn-rate math with exhaustion projection, multi-window burn-rate alerting
+with custom rules, alert triage with service grouping, and Markdown SLO
+definitions, status reports and postmortems. CLI and importable library,
+76 unit tests, CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
 
