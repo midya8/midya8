@@ -6,6 +6,12 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[sre-toolkit](https://github.com/midya8/sre-toolkit)**
+
+Dependency-free Python utilities for day-to-day SRE work: error-budget and
+burn-rate math, rule-based alert triage, and postmortem generation. CLI and
+importable library, 28 unit tests, CI across Python 3.10-3.13.
+
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
 Website for the Kurdistan International Sociological Association in English,
