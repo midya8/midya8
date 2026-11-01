@@ -14,8 +14,9 @@ with custom rules, alert triage with fire counts and critical-driven
 inhibition with custom rule files, and Markdown SLO definitions, status
 reports with budget-exhaustion projections, and postmortems with automatic
 response
-metrics and MTTR aggregation with p90 percentiles. CLI and importable
-library, 130 unit tests,
+metrics and per-severity MTTR aggregation with p90 percentiles. CLI and
+importable
+library, 134 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -23,12 +24,13 @@ CI across Python 3.10-3.13.
 Access-log analysis for the first five minutes of an incident: error rate,
 status distribution, hottest failing paths, and the source IPs behind 5xxs,
 plus incident timelines, p50/p95/p99 latency, time-window filtering, per-path
-breakdowns, a 2xx/3xx/4xx/5xx status-class roll-up, user-agent and referer
+breakdowns, a 2xx/3xx/4xx/5xx status-class roll-up, method, user-agent and
+referer
 triage behind 5xxs, and Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-125 unit tests.
+130 unit tests.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
