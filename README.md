@@ -14,9 +14,11 @@ with custom rules, alert triage with fire counts, noisiest-first noise
 ranking and critical-driven inhibition with custom rule files, SLO definitions (Markdown or JSON), status
 reports with budget-exhaustion projections, and postmortems with automatic
 response
-metrics and per-severity MTTR aggregation with p90 percentiles. CLI and
+metrics and per-severity MTTR aggregation with p90 percentiles, plus
+fleet-wide roll-ups across incident sets (report summaries, triage by
+severity, metrics by service). CLI and
 importable
-library, 166 unit tests,
+library, 184 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -28,20 +30,24 @@ breakdowns, a 2xx/3xx/4xx/5xx status-class roll-up, method, user-agent and
 referer
 triage behind 5xxs, a listing of the individual requests behind
 the 5xxs, hour-of-day pattern breakdowns, consecutive-bucket spike
-windows, and Markdown incident
+windows, throughput and fixed-bucket latency-distribution reports, and
+Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-174 unit tests.
+185 unit tests.
 
 **[flowkit](https://github.com/midya8/flowkit)**
 
 Dependency-free workflow runner: JSON-defined DAGs of shell commands with
 retries and exponential backoff, per-attempt timeouts, fail-fast or
-continue-on-error semantics, and a dry-run plan mode. Definitions are
+continue-on-error semantics, parallel execution of independent steps, and a
+dry-run plan mode. Layered flow/step environment variables interpolate into
+commands with a strict pre-run check, and run reports show captured output
+tails (text or JSON, optionally written to a report file). Definitions are
 validated up front (duplicates, dangling dependencies, cycles) and run in
-deterministic topological order with text or JSON run reports. Standard
-library only, 30 unit tests, CI across Python 3.10-3.13.
+deterministic topological order. Standard
+library only, 78 unit tests, CI across Python 3.10-3.13.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
