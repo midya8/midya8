@@ -9,14 +9,18 @@ agentic systems and workflow automation.
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
-burn-rate math, rule-based alert triage, and postmortem generation. CLI and
-importable library, 28 unit tests, CI across Python 3.10-3.13.
+burn-rate math with exhaustion projection, multi-window burn-rate alerting,
+rule-based alert triage, Markdown SLO status reports, and postmortem
+generation. CLI and importable library, 58 unit tests, CI across Python
+3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
 
 Access-log analysis for the first five minutes of an incident: error rate,
-status distribution, hottest failing paths, and the source IPs behind 5xxs.
-Parses nginx/Apache combined and JSON logs, standard library only.
+status distribution, hottest failing paths, and the source IPs behind 5xxs,
+plus incident timelines, p50/p95/p99 latency, time-window filtering, and JSON
+output. Parses nginx/Apache combined and JSON logs, standard library only,
+47 unit tests.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
