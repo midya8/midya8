@@ -34,6 +34,15 @@ time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
 174 unit tests.
 
+**[flowkit](https://github.com/midya8/flowkit)**
+
+Dependency-free workflow runner: JSON-defined DAGs of shell commands with
+retries and exponential backoff, per-attempt timeouts, fail-fast or
+continue-on-error semantics, and a dry-run plan mode. Definitions are
+validated up front (duplicates, dangling dependencies, cycles) and run in
+deterministic topological order with text or JSON run reports. Standard
+library only, 30 unit tests, CI across Python 3.10-3.13.
+
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
 Website for the Kurdistan International Sociological Association in English,
