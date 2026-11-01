@@ -67,12 +67,14 @@ library only, 123 unit tests, CI across Python 3.10-3.13.
 **[uptimekit](https://github.com/midya8/uptimekit)**
 
 Synthetic uptime monitoring and availability reporting in pure Python:
-HTTP, TCP and TLS certificate-expiry probes with latency and keyword
-checks, an append-only JSONL history with atomic retention, availability
-roll-ups with p50/p95 latency and per-day trends, incident detection with
-a flap guard, and a self-contained HTML status-page renderer. `check`
-exits 1 on any failure so cron doubles as alerting. Standard library only,
-68 unit tests running fully offline.
+HTTP, TCP and TLS certificate-expiry probes with latency, keyword and
+latency assertions, an append-only JSONL history with atomic retention,
+availability roll-ups with p50/p95 latency, per-day trends and
+window-over-window comparison, incident detection with a flap guard and a
+sustained-outage gate, a watch mode for cron-less hosts, and a
+self-contained HTML status-page renderer. `check` exits 1 on any failure
+so cron doubles as alerting. Standard library only,
+83 unit tests running fully offline.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
