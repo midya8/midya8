@@ -21,9 +21,11 @@ burn-rate policy suggestion (--suggest emits the standard multi-window
 table for any SLO window), postmortem action-item follow-through
 (open items per incident, stale-flagged and gate-able via exit codes), and
 burn-rule time-series replay (firing intervals per rule over a timestamped
-series, for alert-policy tuning). CLI and
+series, for alert-policy tuning), and alert ownership routing
+(services mapped to owning teams with an explicit default; per-team
+roll-ups, worst severity first). CLI and
 importable
-library, 242 unit tests,
+library, 254 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -61,6 +63,16 @@ per-step logs on disk). Definitions are
 validated up front (duplicates, dangling dependencies, cycles) and run in
 deterministic topological order. Standard
 library only, 123 unit tests, CI across Python 3.10-3.13.
+
+**[uptimekit](https://github.com/midya8/uptimekit)**
+
+Synthetic uptime monitoring and availability reporting in pure Python:
+HTTP, TCP and TLS certificate-expiry probes with latency and keyword
+checks, an append-only JSONL history with atomic retention, availability
+roll-ups with p50/p95 latency and per-day trends, incident detection with
+a flap guard, and a self-contained HTML status-page renderer. `check`
+exits 1 on any failure so cron doubles as alerting. Standard library only,
+68 unit tests running fully offline.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
