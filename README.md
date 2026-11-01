@@ -16,7 +16,7 @@ reports with budget-exhaustion projections, and postmortems with automatic
 response
 metrics and per-severity MTTR aggregation with p90 percentiles. CLI and
 importable
-library, 134 unit tests,
+library, 139 unit tests,
 CI across Python 3.10-3.13.
 
 **[loglens](https://github.com/midya8/loglens)**
@@ -30,7 +30,7 @@ triage behind 5xxs, and Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-130 unit tests.
+133 unit tests.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
