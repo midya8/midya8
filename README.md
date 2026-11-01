@@ -33,12 +33,12 @@ referer
 triage behind 5xxs, a listing of the individual requests behind
 the 5xxs, hour-of-day pattern breakdowns, consecutive-bucket spike
 windows, throughput and fixed-bucket latency-distribution reports,
-response-size (bandwidth) analysis, and
+response-size (bandwidth) analysis, baseline-log comparison, and
 Markdown incident
 reports with spike windows and before/after deploy comparisons. Status and
 time-window filters scope every statistic. Parses nginx/Apache combined and
 JSON logs with per-line auto-detection, standard library only,
-200 unit tests.
+211 unit tests.
 
 **[flowkit](https://github.com/midya8/flowkit)**
 
@@ -48,10 +48,11 @@ continue-on-error semantics, parallel execution of independent steps,
 conditional steps and subset runs, and a
 dry-run plan mode. Layered flow/step environment variables interpolate into
 commands with a strict pre-run check, and run reports show captured output
-tails (text or JSON, optionally written to a report file). Definitions are
+tails (text or JSON, optionally written to a report file, with full
+per-step logs on disk). Definitions are
 validated up front (duplicates, dangling dependencies, cycles) and run in
 deterministic topological order. Standard
-library only, 92 unit tests, CI across Python 3.10-3.13.
+library only, 97 unit tests, CI across Python 3.10-3.13.
 
 **[KISA website](https://github.com/midya8/kurdistansociology-website)** · [kurdistansociology.com](https://kurdistansociology.com)
 
