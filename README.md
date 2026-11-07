@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[CausalLab](https://github.com/midya8/causallab)**
 
-Exact finite structural causal models with distinct observation, intervention and shared-noise counterfactual queries. A 100-world confounding fixture reverses a +.26 association into a -.10 supplied-model intervention difference; observationally identical mechanisms still disagree on intervention and counterfactual answers. Log-space rare evidence, bounded noise-world traces, all 64 tiny Boolean mechanism pairs, 38 tests and a reproducible SVG. Dependency-free Python and strict JSON CLI. Mechanisms are supplied assumptions, not causes learned from observational data.
+Exact finite structural causal models with distinct observation, intervention and shared-noise counterfactual queries. A 100-world confounding fixture reverses a +.26 association into a -.10 supplied-model intervention difference; observationally identical mechanisms still disagree on intervention and counterfactual answers. Log-space rare evidence, bounded noise-world traces and all 64 tiny Boolean mechanism pairs. Named multi-world counterfactual joints expose shared-noise response dependence missed by identical action marginals. Stable/flip mechanisms share all observations and single-action marginals but have different response-type joints; 64 tests and two reproducible SVGs make the assumptions and naive-product failure visible. Dependency-free Python and strict JSON CLI. Mechanisms are supplied assumptions, not causes learned from observational data.
 
 **[ParticleLab](https://github.com/midya8/particlelab)**
 
