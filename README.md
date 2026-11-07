@@ -29,9 +29,10 @@ baseline/candidate demo, and CI across Python 3.10-3.13.
 Local-first prompt, secret and prompt-injection linting for AI systems:
 OpenAI/AWS-style key checks, assigned-secret and private-key detection,
 email/phone/Luhn-validated card detection, injection-language rules, prompt
-metadata frontmatter checks, redacted terminal/JSON/escaped HTML reports,
-and severity or finding-count CI gates. Dependency-free Python, 28 unit
-tests, a fully offline safe/risky fixture demo, and CI across Python 3.10-3.13.
+metadata frontmatter checks, redacted terminal/JSON/SARIF/escaped HTML reports,
+and severity or finding-count CI gates. Dependency-free Python, 31 unit
+tests, a fully offline safe/risky SARIF-validating fixture demo, and CI
+across Python 3.10-3.13.
 
 **[ScratchGPT](https://github.com/midya8/scratchgpt)**
 
