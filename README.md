@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[DistillLab](https://github.com/midya8/distilllab)**
+
+Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344) while a mismatched-target control sits at exactly chance - dark knowledge isolated, not asserted - with the temperature-scaled loss gradient derived by hand and finite-difference verified, and the overfit gap measured (0.3187 direct vs 0.0531 distilled). (11 tests)
+
 **[MoeLab](https://github.com/midya8/moelab)**
 
 Mixture-of-experts from scratch in pure Python: Switch-style sparse routing over linear experts on a regime-switching fixture, beating a measured same-budget MLP baseline 0.0303 vs 0.1853 test MSE, worst-regime routing purity 1.0000, soft-vs-sparse gap measured (0.6291 vs 0.0303), gradients hand-derived and finite-difference verified, and an honest note that the load-balancing term earns nothing on this symmetric fixture. (9 tests)
