@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[FlowLab](https://github.com/midya8/flowlab)**
 
-Affine-coupling normalizing flow from scratch: exact 2-D model log density, explicit inverse sampling, bounded log scales and handwritten likelihood gradients. A 200-parameter flow gives test NLL2.188408 on a disclosed banana-shaped development fixture, vs train-fitted full-covariance Gaussian2.907770 and untrained flow2.896854; known generating density2.151426 is report-only. Test roundtrip/logdet residual max1.78e-15 is an implementation audit, not a global error bound. Sample residuals/outliers remain visible. 22 tests, strict artifacts and offline train/score/sample CLI. No exact-fit, image, anomaly-detection or general ranking claim.
+Affine-coupling flow from scratch with exact fitted-model density, inverse sampling and analytic input score vectors. The score audit separates the normal-base pullback from the log-Jacobian gradient: dropping the volume term gives 0.660545 maximum coordinate error on the disclosed grid, vs 1.19e-9 for the full derivative. Original banana-fixture test NLL remains2.188408 vs fitted Gaussian2.907770; generating reference2.151426. Shared-scale vectors, raw components, strict artifacts, 29 tests and offline train/score/gradient/sample CLI. Not a causal explanation, probability, OOD detector, exact fit or general ranking.
 
 **[GraphLab](https://github.com/midya8/graphlab)**
 
