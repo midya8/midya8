@@ -6,6 +6,15 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[TokenForge](https://github.com/midya8/tokenforge)**
+
+Byte-level BPE tokenizers trained from scratch: deterministic merge training
+with exact pair counts over GPT-2-style pre-tokenization boundaries,
+rank-ordered encoding with exact round trips, JSON vocab persistence, and
+compression statistics with JSON/Markdown reports and a CI quality gate.
+Dependency-free Python, 40 unit tests, a fully offline demo, and CI across
+Python 3.10-3.13.
+
 **[RetrievalBench](https://github.com/midya8/retrievalbench)**
 
 Offline retrieval evaluation for RAG and search pipelines: an exact Okapi
