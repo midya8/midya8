@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[SetGuard](https://github.com/midya8/setguard)**
 
-Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every-class/input or shifted-data guarantees. Dependency-free Python, 20 tests and offline CI.
+Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics, plus optional label-conditional classwise thresholds with explicit rare-class inclusion. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every realized class rate/input or shifted-data guarantees. Classwise mode targets coverage within true labels under its stated exchangeability assumptions, at a set-size cost. Dependency-free Python, 31 tests and offline CI.
 
 **[CalibrLab](https://github.com/midya8/calibrlab)**
 
