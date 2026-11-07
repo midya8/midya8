@@ -18,12 +18,14 @@ self-contained escaped HTML plus JUnit XML reports. Dependency-free Python,
 
 **[AgentTrace](https://github.com/midya8/agenttrace)**
 
-Local-first validation, analysis and HTML reporting for AI agent execution
+Local-first validation, analysis and reporting for AI agent execution
 traces: JSONL structure checks, run summaries, tool/LLM call counts, latency
 and cost rollups, graph depth, repeated-step loop detection, baseline/candidate
-regression comparison, CI-friendly quality gates, and a standalone escaped HTML
-timeline. Dependency-free Python, 30 unit tests, a fully offline fixed-trace
-baseline/candidate demo, and CI across Python 3.10-3.13.
+regression comparison, CI-friendly quality gates, a standalone escaped HTML
+timeline, and deterministic JUnit XML output for CI test viewers.
+Dependency-free Python, 30 unit tests, a fully offline fixed-trace
+baseline/candidate demo that validates JUnit output, and CI across Python
+3.10-3.13.
 
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
