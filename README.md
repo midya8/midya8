@@ -6,6 +6,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[DecodeLab](https://github.com/midya8/decodelab)**
+
+Decoding strategies for language models from scratch: greedy decoding, seeded
+temperature/top-k/top-p sampling, and beam search over an exact n-gram
+distribution, with generation-quality metrics (distinct-n, repetition,
+entropy), JSON/Markdown reports, and CI gates. Dependency-free Python,
+36 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+
 **[VectorLite](https://github.com/midya8/vectorlite)**
 
 Exact and approximate kNN vector search from scratch: brute-force exact kNN
