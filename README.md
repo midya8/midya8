@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[ChainLab](https://github.com/midya8/chainlab)**
 
-Hidden Markov models from scratch: log-space forward/backward, state and transition posteriors, Viterbi paths and multi-sequence Baum-Welch. Exhaustive path/expected-count references check the math. A synthetic persistent-regime fixture improves test NLL per symbol from 1.017638 at initialization to 0.775631 after training; iid control 0.985993, generating-model reference 0.771674. An exact counterexample shows why marginal modes can form an impossible path. Explicit impossible-sequence rejection, sequence resets, zero-occupancy retention and monotonic accepted-EM history. Development results, not true-state recovery or universal ranking. Dependency-free Python, 24 tests and reproducible SVG/CLI demo.
+Hidden Markov models from scratch: log-space inference, Viterbi paths and multi-sequence Baum-Welch, now with prefix-only filtering and multi-step symbol/state forecasts. An exact example separates x-only filtering P(A)=2/3 from future-informed x/y smoothing P(A)=0. Forecasts are dependent horizon marginals, not a joint path. Prefix predictive log scores match full likelihood to about 5.68e-14 on the seed23 development fixture; that is an implementation audit, not a new quality gain. Existing test NLL per symbol: trained0.775631, iid control0.985993, initialization1.017638, generating reference0.771674. Exhaustive references, impossible-prefix rejection, 34 tests and offline CLI/SVG demo. No calibration or state-recovery claim.
 
 **[KernelLab](https://github.com/midya8/kernellab)**
 
