@@ -6,6 +6,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[PlanBench](https://github.com/midya8/planbench)**
+
+Validation and deterministic simulation of agent task plans before they run:
+semantic DAG checks (unknown tools, cyclic dependencies, unproduced inputs),
+a seeded parallel simulator with flaky tools, retries and skip cascades, and
+makespan/cost/critical-path/parallelism metrics with CI gates. Dependency-free
+Python, 29 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+
 **[DecodeLab](https://github.com/midya8/decodelab)**
 
 Decoding strategies for language models from scratch: greedy decoding, seeded
