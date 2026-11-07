@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[KernelLab](https://github.com/midya8/kernellab)**
+
+Gaussian-process regression from scratch: Cholesky conditioning, latent versus observation covariance, explicit training jitter, marginal likelihood and fixed-parameter leave-one-out audits. A noisy synthetic fixture compares length scales 0.8 and 5: observation RMSE 0.6242 versus 1.0038, mean NLL 0.1041 versus 12.1309. The adverse arm stays visible: smaller model variance can be confidently wrong. Model-based pointwise bands are not calibrated coverage guarantees. Independent inverse/LOO-refit checks, versioned JSON artifacts, dependency-free Python, 25 tests and reproducible SVG/CLI demo.
+
 **[BoostLab](https://github.com/midya8/boostlab)**
 
 Binary gradient boosting from scratch: mean-residual defaults plus optional capped, L2-regularized Newton leaves on residual-SSE trees. The development fixture selects 35 Newton trees/237 nodes, test accuracy 0.9004/logloss 0.3341; its unselected 80-round checkpoint is also shown (0.8984/0.3469). Mean depth-2 control: 0.8906/0.3400; full-budget stumps: 0.6367/0.7366. Different capacity and settings, no causal or external-benchmark claim. Backward-compatible v1/v2 inference, Hessian/leaf arithmetic tests, validation-only prefix selection. Dependency-free Python, 29 tests and offline CI.
