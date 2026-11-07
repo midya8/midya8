@@ -6,6 +6,15 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[KVLens](https://github.com/midya8/kvlens)**
+
+KV-cached incremental decoding from scratch in pure Python: batched prefill plus
+one incremental step per token, verified bitwise-identical to full recompute
+(max logit difference exactly 0.0 across configs), with measured matmul FLOP
+savings (90.8% at 32 generated tokens on the default fixture) and CI gates.
+Dependency-free Python, 28 unit tests, a fully offline demo, and CI across
+Python 3.10-3.13.
+
 **[AttnLens](https://github.com/midya8/attnlens)**
 
 Causal multi-head self-attention trained from scratch in pure Python: hand-derived
