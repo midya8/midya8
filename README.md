@@ -6,6 +6,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[QuantLab](https://github.com/midya8/quantlab)**
+
+int8 post-training quantization from scratch in pure Python: symmetric
+per-tensor and per-channel scales, byte-exact size accounting, and a trained
+fixture model whose int8 accuracy cost is measured exactly (0.0000 drop at
+3.765x smaller storage on the checked-in fixture), plus a controlled study
+locating where quantization error lives (+39.14 dB small-row SNR for
+per-channel). Dependency-free Python, 28 unit tests, a fully offline demo,
+and CI across Python 3.10-3.13.
+
 **[RAGLine](https://github.com/midya8/ragline)**
 
 Retrieval-augmented answering from scratch in pure Python: deterministic corpus,
