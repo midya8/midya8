@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[StructGate](https://github.com/midya8/structgate)**
+
+Grammar-constrained generation from scratch in pure Python: incremental JSON and closed-schema validators compute the exact legal next-token set per prefix, an exact n-gram distribution is masked to it during generation, and the trade-off is measured - 40/40 schema-conforming draws vs a 3/40 unconstrained control, with the renormalization cost reported per step in nats (mean 1.35 grammar, 0.82 schema on the checked-in fixture). Dependency-free Python, 33 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+
 **[QuantLab](https://github.com/midya8/quantlab)**
 
 int8 post-training quantization from scratch in pure Python: symmetric
@@ -233,3 +237,4 @@ React, TypeScript and Vite.
 ### Find me
 
 [midya.ca](https://midya.ca) · [LinkedIn](https://www.linkedin.com/in/midyarahmani/)
+
