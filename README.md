@@ -32,13 +32,14 @@ output, and CI across Python 3.10-3.13.
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
 Local-first prompt, secret and prompt-injection linting for AI systems:
-OpenAI/AWS-style key checks, assigned-secret and private-key detection,
-email/phone/Luhn-validated card detection, injection-language rules, prompt
-metadata frontmatter checks, redacted terminal, JSON, SARIF, JUnit XML, Markdown
-and escaped HTML reports, and severity or finding-count CI gates.
-Dependency-free Python, 38 unit tests, a fully offline safe/risky fixture demo
-that validates SARIF, JUnit and Markdown output, and CI across Python
-3.10-3.13.
+OpenAI/AWS-style key, GitHub/Slack/Google token and JWT checks, assigned-secret
+and private-key detection, email/phone/Luhn-validated card detection,
+injection-language rules, prompt metadata frontmatter checks, redacted
+terminal, JSON, SARIF, JUnit XML, Markdown and escaped HTML reports, and
+severity or finding-count CI gates.
+Dependency-free Python, 45 unit tests, a fully offline fixture demo that
+validates SARIF, JUnit and Markdown output against safe, risky and
+runtime-generated token fixtures, and CI across Python 3.10-3.13.
 
 **[ScratchGPT](https://github.com/midya8/scratchgpt)**
 
