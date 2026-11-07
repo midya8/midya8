@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[ChainLab](https://github.com/midya8/chainlab)**
+
+Hidden Markov models from scratch: log-space forward/backward, state and transition posteriors, Viterbi paths and multi-sequence Baum-Welch. Exhaustive path/expected-count references check the math. A synthetic persistent-regime fixture improves test NLL per symbol from 1.017638 at initialization to 0.775631 after training; iid control 0.985993, generating-model reference 0.771674. An exact counterexample shows why marginal modes can form an impossible path. Explicit impossible-sequence rejection, sequence resets, zero-occupancy retention and monotonic accepted-EM history. Development results, not true-state recovery or universal ranking. Dependency-free Python, 24 tests and reproducible SVG/CLI demo.
+
 **[KernelLab](https://github.com/midya8/kernellab)**
 
 Gaussian-process regression and finite-grid expected-improvement suggestions from scratch. Cholesky solves, separate latent/observation covariance, explicit jitter, marginal likelihood and fixed-parameter LOO. Deterministic EI excludes known rows and returns a full candidate audit, without executing evaluations. A nine-evaluation toy optimization comparison reports grid regret 0.000163 (EI), 0.072944 (space filling) and 0.399473 (one seeded random control). Same pool/initialization/budget; development data, no general ranking or continuous optimum claim. The regression misspecification counterexample remains visible. Dependency-free Python, 36 tests, offline CLI and reproducible SVGs.
