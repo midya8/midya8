@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[DriftLens](https://github.com/midya8/driftlens)**
+
+Embedding-distribution comparison from scratch: unbiased RBF MMD, cached-kernel permutations, exact tiny-sample tests and a JSON CLI/API. Selected 30x4 development fixture: same-generator p=0.550, mean-shift p=0.002 (the 1/500 resolution floor); a tiny separated 2-vs-2 sample still has exact p=1/3. No power-benchmark, cause, downstream-accuracy or continuous-monitoring claim. Explicit exchangeability and prespecified bandwidth assumptions; non-rejection is not equivalence. Dependency-free Python, 17 tests and offline CI.
+
 **[SetGuard](https://github.com/midya8/setguard)**
 
 Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics, plus optional label-conditional classwise thresholds with explicit rare-class inclusion. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every realized class rate/input or shifted-data guarantees. Classwise mode targets coverage within true labels under its stated exchangeability assumptions, at a set-size cost. Dependency-free Python, 31 tests and offline CI.
