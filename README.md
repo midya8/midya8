@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[DiffuseLab](https://github.com/midya8/diffuselab)**
+
+Learned 2-D diffusion from scratch: explicit DDPM reverse arithmetic, a 482-parameter tanh noise predictor and handwritten backpropagation. On one eight-mode development fixture, 60.55% of learned samples fall within 0.4 of a center, versus 7.42% for a Gaussian prior and 0% for the same untrained reverse chain. All 8 neighborhoods are covered but frequencies remain uneven; the untrained chain expands badly. Exact-gradient and posterior-algebra tests, collapse counterexample, strict artifacts, 22 tests and offline CLI/SVG. Educational 2-D model, not image generation, calibrated density or a general benchmark.
+
 **[ChainLab](https://github.com/midya8/chainlab)**
 
 Hidden Markov models from scratch: log-space inference, Viterbi paths and multi-sequence Baum-Welch, now with prefix-only filtering and multi-step symbol/state forecasts. An exact example separates x-only filtering P(A)=2/3 from future-informed x/y smoothing P(A)=0. Forecasts are dependent horizon marginals, not a joint path. Prefix predictive log scores match full likelihood to about 5.68e-14 on the seed23 development fixture; that is an implementation audit, not a new quality gain. Existing test NLL per symbol: trained0.775631, iid control0.985993, initialization1.017638, generating reference0.771674. Exhaustive references, impossible-prefix rejection, 34 tests and offline CLI/SVG demo. No calibration or state-recovery claim.
