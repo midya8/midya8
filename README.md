@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[MoeLab](https://github.com/midya8/moelab)**
+
+Mixture-of-experts from scratch in pure Python: Switch-style sparse routing over linear experts on a regime-switching fixture no single dense map can fit - 0.0303 vs 0.1853 test MSE against a slightly larger MLP baseline, worst-regime routing purity 1.0000, soft-vs-sparse gap measured (0.6291 vs 0.0303), gradients hand-derived and finite-difference verified, and an honest note that the load-balancing term earns nothing on this symmetric fixture. (9 tests)
+
 **[AlignLab](https://github.com/midya8/alignlab)**
 
 Preference-based alignment from scratch in pure Python: train a Bradley-Terry reward model on pairwise preferences (0.7800 holdout accuracy vs 0.4333 for a noise-trained control), then align a policy by gradient ascent on expected reward minus an exact KL penalty - true latent utility rises 2.04 to 4.62 while on the checked-in fixture the label-noise control buys almost nothing (a fixture comparison, not a general proof), the beta=0 collapse ablation is gated, and every expectation and gradient is closed-form and finite-difference verified. (15 tests)
