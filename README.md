@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[SegmentLab](https://github.com/midya8/segmentlab)**
 
-Exact offline Gaussian changepoint inference with explicitly normalized constrained partition priors, forward/backward evidence, count/boundary/interval posteriors and complete MAP segmentation. A36-point synthetic fixture recovers cuts12/24; the same outlier sequence is confidently oversegmented under low assumed noise. 14 tests, exhaustive tiny references, dependency-free Python, JSON CLI and reproducible SVG. Model-conditional latent-mean variance, not online detection, event attribution or real-data calibration.
+Exact offline Gaussian changepoint inference with explicitly normalized constrained partition priors, forward/backward evidence, count/boundary/interval posteriors and complete MAP segmentation. A36-point synthetic fixture recovers cuts12/24; the same outlier sequence is confidently oversegmented under low assumed noise. Rolling interval statistics avoid rescans with exact work-count audits. 21 tests, exhaustive tiny references, dependency-free Python, JSON CLI and reproducible SVG. Model-conditional latent-mean variance, not online detection, event attribution or real-data calibration.
 
 **[HamiltonLab](https://github.com/midya8/hamiltonlab)**
 
