@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[TransportLab](https://github.com/midya8/transportlab)**
+
+Log-domain entropic optimal transport from scratch, with full plans, both marginal residuals and explicit nonconvergence. Six-point fixture: epsilon0.5 cost0.522178 after576 iterations vs exact uniform-assignment0.45 and independent coupling4.227778. Epsilon0.1 reaches the5000-iteration cap and stays visible, not silently repaired. Positive self-cost shows this is not a metric or debiased Sinkhorn divergence. 16 tests, zero-weight support, exact tiny assignment references, barycentric means and offline CLI/SVG. No learned-correspondence, downstream accuracy or speedup claim.
+
 **[FlowLab](https://github.com/midya8/flowlab)**
 
 Affine-coupling flow from scratch: exact fitted-model density, inverse sampling, analytic input scores and bounded conditional CDF/quantile slices. Aligned window audits reuse one scored grid and expose renormalization effects: narrowing[-4,4] to[-1,1] removes24.35%-31.94% of interpolated mass inside the finite outer window. An analytic narrow-peak counterexample shows two agreeing grids can both be wrong. 45 tests, strict artifacts, offline CLI/SVGs and actual call budgets. No whole-line tail, exact-conditional, calibrated-coverage, OOD or causal claim.
