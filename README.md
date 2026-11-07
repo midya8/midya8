@@ -12,9 +12,9 @@ Local-first evaluation for LLM and agent outputs: versioned JSONL task
 suites, deterministic exact/contains/regex/JSON/similarity/numeric/length
 checks, a stdin/stdout adapter contract, retries, timeouts, bounded
 parallel execution, JSON run artifacts, baseline regression gates, and
-self-contained escaped HTML plus JUnit XML reports. Dependency-free Python,
-60 unit tests, a fully offline JUnit-validating demo, and CI across Python
-3.10-3.13.
+self-contained escaped HTML, JUnit XML and Markdown job-summary reports.
+Dependency-free Python, 61 unit tests, a fully offline demo that validates
+JUnit and Markdown output, and CI across Python 3.10-3.13.
 
 **[AgentTrace](https://github.com/midya8/agenttrace)**
 
