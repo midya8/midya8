@@ -24,6 +24,15 @@ regression comparison, CI-friendly quality gates, and a standalone escaped HTML
 timeline. Dependency-free Python, 30 unit tests, a fully offline fixed-trace
 baseline/candidate demo, and CI across Python 3.10-3.13.
 
+**[PromptGuard](https://github.com/midya8/promptguard)**
+
+Local-first prompt, secret and prompt-injection linting for AI systems:
+OpenAI/AWS-style key checks, assigned-secret and private-key detection,
+email/phone/Luhn-validated card detection, injection-language rules, prompt
+metadata frontmatter checks, redacted terminal/JSON/escaped HTML reports,
+and severity or finding-count CI gates. Dependency-free Python, 28 unit
+tests, a fully offline safe/risky fixture demo, and CI across Python 3.10-3.13.
+
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
