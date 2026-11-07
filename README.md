@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[PolicyLens](https://github.com/midya8/policylens)**
 
-Offline contextual-bandit evaluation from scratch: IPS, SNIPS, direct and doubly robust estimates with support/weight diagnostics. On a constructed balanced design, IPS/SNIPS/DR recover target0.78 despite a wrong reward model; clipping raises ESS but moves DR to0.535. A separate noisy log with oracle reward predictions gives DR0.7532, not exact truth. No causal-identification, confidence-bound or deployment-safety claim; explicit propensity, support and nuisance-prediction assumptions. Dependency-free Python,16 tests and offline CI.
+Offline contextual-bandit evaluation from scratch: IPS, SNIPS, direct and doubly robust estimates with support/weight diagnostics. On a constructed balanced design, IPS/SNIPS/DR recover target 0.78 despite a wrong reward model; clipping raises ESS but moves DR to 0.535. A separate noisy log with oracle reward predictions gives DR 0.7532, not exact truth. No causal-identification, confidence-bound or deployment-safety claim; explicit propensity, support and nuisance-prediction assumptions. Dependency-free Python, 16 tests and offline CI.
 
 **[DriftLens](https://github.com/midya8/driftlens)**
 
