@@ -6,6 +6,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[VectorLite](https://github.com/midya8/vectorlite)**
+
+Exact and approximate kNN vector search from scratch: brute-force exact kNN
+(cosine and L2), a seeded random-hyperplane LSH index for approximate cosine
+search, and recall@k of the approximate index measured against the exact
+baseline and enforced with a CI gate. Dependency-free Python, 31 unit tests,
+a fully offline demo, and CI across Python 3.10-3.13.
+
 **[GroundCheck](https://github.com/midya8/groundcheck)**
 
 Offline lexical grounding checks for answers against their sources: citation
@@ -20,7 +28,7 @@ Byte-level BPE tokenizers trained from scratch: deterministic merge training
 with exact pair counts over GPT-2-style pre-tokenization boundaries,
 rank-ordered encoding with exact round trips, JSON vocab persistence, and
 compression statistics with JSON/Markdown reports and a CI quality gate.
-Dependency-free Python, 43 unit tests, a fully offline demo, and CI across
+Dependency-free Python, 40 unit tests, a fully offline demo, and CI across
 Python 3.10-3.13.
 
 **[RetrievalBench](https://github.com/midya8/retrievalbench)**
