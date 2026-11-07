@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[BoostLab](https://github.com/midya8/boostlab)**
+
+Binary gradient boosting from scratch: Bernoulli residuals, greedy shallow trees, stable logit loss and validation-only prefix selection. A noisy interaction development fixture gives depth-2 test accuracy 0.8906/logloss 0.3400 with 80 trees/556 nodes. The full 80-round stump control is shown (0.6367/0.7366), while validation selects its zero-tree prefix (0.4980/0.7060). Same rounds, different capacity; no causal-depth or external-benchmark claim. Finite-difference gradients, serialized checkpoints and a rejecting validation gate. Fixed first-order mean leaves, not Newton boosting. Dependency-free Python, 19 tests and offline CI.
+
 **[ShapleyLab](https://github.com/midya8/shapleylab)**
 
 Exact small-feature Shapley attribution from scratch: all empirical-background coalitions auditable, callback API and JSON CLI. Same product prediction 6 gives [3, 3, 0] or [2, 3, 0] with different backgrounds. An off-manifold hybrid counterexample passes additivity, showing why exact arithmetic is not explanation validity. Joint missing-feature dependence preserved; preflight exponential-work budget; independent factorial reference checks. No conditional/causal or trained-model quality claim. Optional atomic groups move correlated blocks together. Three-way product gives grouped [1/2, 1/2], not post-hoc [2/3, 1/3]; grouped games answer a different question. Up to 64 raw features/12 groups, no within-group credit split or cross-group dependence guarantee. Optional seeded permutation mode handles up to 64 individual features with cached coalitions and descriptive MC standard errors. A two-permutation product gives [0.5, 0.5, 0] despite exact [1/3, 1/3, 1/3], showing zero observed MC error is not an accuracy bound. No confidence guarantee or sampled groups. Dependency-free Python, 43 tests and offline CI.
