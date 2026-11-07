@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[GraphLab](https://github.com/midya8/graphlab)**
 
-Two-layer GCN from scratch, now with exact input gradients for a chosen node/class-logit margin, signed gradient-times-input sums and two-hop receptive-field audits. A hand-set path example sums to margin 0.598556 with zero reported residual, while a dead-ReLU counterexample shows zero local gradient does not mean no large-change effect. Original 96-node transductive development results remain: selected GCN test0.96875, same-parameter MLP0.34375, scrambled GCN0.515625; final checkpoints and centroid control visible. Synthetic edges carry class signal; features/edges visible, test labels withheld. Cycle/triangles expressivity blind spot, 34 tests and offline CLI/SVGs. No causal, probability-attribution, unseen-graph or general ranking claim.
+Two-layer GCN from scratch with exact input-margin gradients and budgeted single-edge deletion sensitivity. Input locality differs from graph normalization: node 3 has zero feature gradient for node 0, yet deleting edge 2-3 changes its margin by +0.016852 after degree renormalization. Full signed contributions, every edge effect, preflight call budgets and zero-gradient/large-change counterexample. Original transductive development results remain: selected GCN0.96875, MLP0.34375, scrambled GCN0.515625; final/centroid controls visible. Synthetic graph carries class signal; no causal, probability-attribution, unseen-graph or general ranking claim. 42 tests, strict artifacts and offline CLI/SVGs.
 
 **[DiffuseLab](https://github.com/midya8/diffuselab)**
 
