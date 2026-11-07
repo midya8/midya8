@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[ShapleyLab](https://github.com/midya8/shapleylab)**
+
+Exact small-feature Shapley attribution from scratch: all empirical-background coalitions auditable, callback API and JSON CLI. Same product prediction 6 gives [3, 3, 0] or [2, 3, 0] with different backgrounds. An off-manifold hybrid counterexample passes additivity, showing why exact arithmetic is not explanation validity. Joint missing-feature dependence preserved; preflight exponential-work budget; independent factorial reference checks. No conditional/causal or trained-model quality claim. Dependency-free Python, 22 tests and offline CI.
+
 **[PolicyLens](https://github.com/midya8/policylens)**
 
 Offline contextual-bandit evaluation from scratch: IPS, SNIPS, direct and doubly robust estimates with support/weight diagnostics. On a constructed balanced design, IPS/SNIPS/DR recover target 0.78 despite a wrong reward model; clipping raises ESS but moves DR to 0.535. A separate noisy log with oracle reward predictions gives DR 0.7532, not exact truth. No causal-identification, confidence-bound or deployment-safety claim; explicit propensity, support and nuisance-prediction assumptions. Optional held-out categorical reward fitting reports fold/cell counts and prior-only predictions; row-iid splitting does not fix grouped or sequential leakage. On the same noisy log, fitted DR 0.7509088 is not better than oracle DR. Dependency-free Python, 28 tests and offline CI.
