@@ -15,6 +15,15 @@ parallel execution, JSON run artifacts, baseline regression gates, and
 self-contained escaped HTML reports. Dependency-free Python, 60 unit tests,
 a fully offline demo, and CI across Python 3.10-3.13.
 
+**[AgentTrace](https://github.com/midya8/agenttrace)**
+
+Local-first validation, analysis and HTML reporting for AI agent execution
+traces: JSONL structure checks, run summaries, tool/LLM call counts, latency
+and cost rollups, graph depth, repeated-step loop detection, CI-friendly
+quality gates, and a standalone escaped HTML timeline. Dependency-free
+Python, 25 unit tests, a fully offline fixed-trace demo, and CI across
+Python 3.10-3.13.
+
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
