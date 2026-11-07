@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[DiffuseLab](https://github.com/midya8/diffuselab)**
 
-Learned 2-D diffusion from scratch: explicit DDPM reverse arithmetic, a 482-parameter tanh noise predictor and handwritten backpropagation. On one eight-mode development fixture, 60.55% of learned samples fall within 0.4 of a center, versus 7.42% for a Gaussian prior and 0% for the same untrained reverse chain. All 8 neighborhoods are covered but frequencies remain uneven; the untrained chain expands badly. Exact-gradient and posterior-algebra tests, collapse counterexample, strict artifacts, 22 tests and offline CLI/SVG. Educational 2-D model, not image generation, calibrated density or a general benchmark.
+Learned 2-D diffusion from scratch, now with selected-grid DDIM sampling and exact denoiser-call audits. The same 482-parameter model uses 8/16/64 DDIM steps without retraining. Eight steps saves 87.5% of predictor calls but has worse symmetric reference distance here (0.210661 vs DDPM 0.037103), despite a slightly higher near-center fraction. All 8 neighborhoods reached, uneven frequencies and outliers retained. Full-grid eta=1 matches DDPM arithmetic with matched draws. 33 tests, strict artifacts and offline train/sample/DDIM CLI. Development fixture only, no walltime speedup, image-generation or general ranking claim.
 
 **[ChainLab](https://github.com/midya8/chainlab)**
 
