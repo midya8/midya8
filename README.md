@@ -6,6 +6,9 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[LoRALab](https://github.com/midya8/loralab)**
+Low-rank adaptation from scratch in pure Python: freeze a trained model, learn only a rank-r delta W + B@A with hand-derived gradients, and measure all three sides of the trade-off - accuracy on the shifted distribution (0.44 recovered to 1.0000 at rank 2 on the checked-in fixture), trainable-parameter share (67.7% of full fine-tuning), and retained accuracy on the original distribution, with merge equivalence pinned to floating-point reassociation error and gates that fail in both directions. (14 tests)
+
 **[SpecLab](https://github.com/midya8/speclab)**
 
 Speculative decoding from scratch in pure Python: a draft model proposes token blocks, a target model verifies each block, and a greedy-construction invariant keeps output identical to target-only decoding - the implementation verified token-for-token on tested configs and gammas - while modeled verification rounds drop 74.6% on the checked-in fixture (acceptance 0.800), with actual scoring work reported alongside the modeled count. Dependency-free Python, 14 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
