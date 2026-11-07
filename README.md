@@ -6,6 +6,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[GroundCheck](https://github.com/midya8/groundcheck)**
+
+Offline grounding checks for answers against their sources: citation
+validation, per-sentence lexical support scoring against source documents,
+numeric consistency checks, terminal/JSON/Markdown reports, and CI gates
+that fail on ungrounded output. Dependency-free Python, 40 unit tests, a
+fully offline demo, and CI across Python 3.10-3.13.
+
 **[TokenForge](https://github.com/midya8/tokenforge)**
 
 Byte-level BPE tokenizers trained from scratch: deterministic merge training
