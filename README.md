@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[DriftLens](https://github.com/midya8/driftlens)**
 
-Embedding-distribution comparison from scratch: unbiased RBF MMD, cached-kernel permutations, exact tiny-sample tests and a JSON CLI/API with Holm-corrected prespecified bandwidth families and optional within-block permutations. Selected 30x4 development fixture: same-generator p=0.550, mean-shift p=0.002 (the 1/500 resolution floor); a tiny separated 2-vs-2 sample still has exact p=1/3. No power-benchmark, cause, downstream-accuracy or continuous-monitoring claim. Explicit exchangeability and prespecified bandwidth assumptions; non-rejection is not equivalence. Dependency-free Python, 32 tests and offline CI.
+Embedding-distribution comparison from scratch: unbiased RBF MMD, cached-kernel permutations, exact tiny-sample tests and a JSON CLI/API with Holm-corrected prespecified bandwidth families and optional within-block permutations, plus descriptive row-index witness diagnostics (not causal attribution). Selected 30x4 development fixture: same-generator p=0.550, mean-shift p=0.002 (the 1/500 resolution floor); a tiny separated 2-vs-2 sample still has exact p=1/3. No power-benchmark, cause, downstream-accuracy or continuous-monitoring claim. Explicit exchangeability and prespecified bandwidth assumptions; non-rejection is not equivalence. Dependency-free Python, 39 tests and offline CI.
 
 **[SetGuard](https://github.com/midya8/setguard)**
 
