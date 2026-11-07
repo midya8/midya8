@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[RobustLab](https://github.com/midya8/robustlab)**
 
-Binary linear adversarial robustness from scratch: exact L1/L2/L-infinity norm-ball margins and attainable perturbation witnesses, with hand-derived robust logistic subgradients. A fixed shifted synthetic holdout exposes the clean/robust trade-off: ordinary training is 100% clean / 20% strict robust at L-infinity radius 0.30; robust training is 80% / 80%. Both robust-gate directions stay visible. Independent rational corner enumeration, finite differences and nonsmooth subgradient inequalities, 35 tests and a reproducible SVG. Dependency-free Python and strict JSON CLI. Supplied linear models and explicit all-real norm balls only; floating-point audits, not neural-network or production security guarantees.
+Binary linear adversarial robustness from scratch: exact L1/L2/L-infinity norm-ball margins and attainable perturbation witnesses, with hand-derived robust logistic subgradients. A fixed shifted synthetic holdout exposes the clean/robust trade-off: ordinary training is 100% clean / 20% strict robust at L-infinity radius 0.30; robust training is 80% / 80%. Both robust-gate directions stay visible. Independent rational corner enumeration, finite differences and nonsmooth subgradient inequalities, Exact rational L1/L-infinity audits expose float boundary-flag disagreements while preserving the actual binary input values. 56 tests and two reproducible SVGs. Dependency-free Python and strict JSON CLI. Supplied linear models and explicit all-real norm balls only; floating-point audits, not neural-network or production security guarantees.
 
 **[CausalLab](https://github.com/midya8/causallab)**
 
