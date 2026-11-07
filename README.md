@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[SegmentLab](https://github.com/midya8/segmentlab)**
+
+Exact offline Gaussian changepoint inference with explicitly normalized constrained partition priors, forward/backward evidence, count/boundary/interval posteriors and complete MAP segmentation. A36-point synthetic fixture recovers cuts12/24; the same outlier sequence is confidently oversegmented under low assumed noise. 14 tests, exhaustive tiny references, dependency-free Python, JSON CLI and reproducible SVG. Model-conditional latent-mean variance, not online detection, event attribution or real-data calibration.
+
 **[HamiltonLab](https://github.com/midya8/hamiltonlab)**
 
 Hamiltonian Monte Carlo from scratch with full rejection histories, leapfrog energy/reversibility and quadratic resonance audits. High acceptance can hide zero mode switches or almost-identity trajectories; optional state-independent random lengths retain every choice and work count. Rank-normalized split/folded R-hat exposes deterministic scale and half-chain failures missed by classical ratios; undefined components remain null. 82 tests, dependency-free Python, offline sample/demo/quadratic/diagnose/harmonic/window/window-mixture CLI and SVG. No speed ranking, adaptive NUTS, ESS/MCSE or convergence certificate. Synthetic chains and analytic truths, not fitted posterior results. Analytic Gaussian flow separates mass/phase effects from integration error, with exact sign-flip and identity counterexamples. Fixed and IID random-duration q/q² covariance audits and a reproducible shared-axis SVG expose frozen magnitude even with zero position correlation; no sampled-chain ESS/MCSE claim.
