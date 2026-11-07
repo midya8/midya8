@@ -22,10 +22,11 @@ Local-first validation, analysis and reporting for AI agent execution
 traces: JSONL structure checks, run summaries, tool/LLM call counts, latency
 and cost rollups, graph depth, repeated-step loop detection, baseline/candidate
 regression comparison, CI-friendly quality gates, a standalone escaped HTML
-timeline, deterministic JUnit XML output for CI test viewers, and Markdown
-job summaries. Dependency-free Python, 31 unit tests, a fully offline
-fixed-trace baseline/candidate demo that validates JUnit and Markdown output,
-and CI across Python 3.10-3.13.
+timeline, deterministic JUnit XML output for CI test viewers, Markdown
+job summaries, and SARIF 2.1.0 output for code-scanning integrations.
+Dependency-free Python, 33 unit tests, a fully offline
+fixed-trace baseline/candidate demo that validates JUnit, Markdown and SARIF
+output, and CI across Python 3.10-3.13.
 
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
