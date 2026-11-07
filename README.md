@@ -6,6 +6,15 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[EvalForge](https://github.com/midya8/evalforge)**
+
+Local-first evaluation for LLM and agent outputs: versioned JSONL task
+suites, deterministic exact/contains/regex/JSON/similarity/numeric/length
+checks, a stdin/stdout adapter contract, retries, timeouts, bounded
+parallel execution, JSON run artifacts, baseline regression gates, and
+self-contained escaped HTML reports. Dependency-free Python, 60 unit tests,
+a fully offline demo, and CI across Python 3.10-3.13.
+
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
