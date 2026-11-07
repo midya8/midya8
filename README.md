@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[DistillLab](https://github.com/midya8/distilllab)**
 
-Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344) while a mismatched-target control sits at exactly chance - dark knowledge isolated, not asserted - with the temperature-scaled loss gradient derived by hand and finite-difference verified, and the overfit gap measured (0.3187 direct vs 0.0531 distilled). (11 tests)
+Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344), decomposed by matched controls into +0.0281 from the teacher's own predictions and +0.0375 from the non-target-class distribution beyond them, with uniform smoothing and permuted-target arms ruling out the cheaper explanations - gradients hand-derived and finite-difference verified, overfit gap measured (0.3187 direct vs 0.0531 distilled). (12 tests)
 
 **[MoeLab](https://github.com/midya8/moelab)**
 
