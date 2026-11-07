@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[FlowLab](https://github.com/midya8/flowlab)**
 
-Affine-coupling flow from scratch with exact fitted-model density, inverse sampling and analytic input score vectors. The score audit separates the normal-base pullback from the log-Jacobian gradient: dropping the volume term gives 0.660545 maximum coordinate error on the disclosed grid, vs 1.19e-9 for the full derivative. Original banana-fixture test NLL remains2.188408 vs fitted Gaussian2.907770; generating reference2.151426. Shared-scale vectors, raw components, strict artifacts, 29 tests and offline train/score/gradient/sample CLI. Not a causal explanation, probability, OOD detector, exact fit or general ranking.
+Affine-coupling flow from scratch: exact fitted-model density, inverse sampling, analytic score decomposition and bounded conditional-density slices. Conditional CDFs, moments and quantiles expose the entire grid, finite-interval renormalization and actual evaluation budget. Three disclosed banana-fixture slices retain65/257/513-point refinements; missing tails and accuracy guarantees are explicitly unknown. Earlier score counterexample and train-fitted Gaussian controls remain. 38 tests, strict artifacts and offline CLI/SVGs. No exact-conditional, calibrated-coverage, OOD or causal claim.
 
 **[GraphLab](https://github.com/midya8/graphlab)**
 
