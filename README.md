@@ -38,7 +38,7 @@ injection-language rules, prompt metadata frontmatter checks, redacted
 terminal, JSON, SARIF, JUnit XML, Markdown and escaped HTML reports, severity
 or finding-count CI gates, and fingerprint-based baseline suppression so CI
 only gates on new findings.
-Dependency-free Python, 58 unit tests, a fully offline fixture demo that
+Dependency-free Python, 68 unit tests, a fully offline fixture demo that
 validates SARIF, JUnit and Markdown output and the baseline suppression flow
 against safe, risky and runtime-generated token fixtures, and CI across Python
 3.10-3.13.
