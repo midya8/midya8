@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[SpecLab](https://github.com/midya8/speclab)**
 
-Speculative decoding from scratch in pure Python: a draft model proposes token blocks, a target model verifies each block in one counted pass, and output is proven token-for-token identical to target-only greedy decoding (across model configs and block sizes in the test suite) while target evaluations drop a measured 74.6% on the checked-in fixture (acceptance 0.800). Dependency-free Python, 16 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+Speculative decoding from scratch in pure Python: a draft model proposes token blocks, a target model verifies each block, and a greedy-construction invariant keeps output identical to target-only decoding - the implementation verified token-for-token on tested configs and gammas - while modeled verification rounds drop 74.6% on the checked-in fixture (acceptance 0.800), with actual scoring work reported alongside the modeled count. Dependency-free Python, 14 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
 
 **[StructGate](https://github.com/midya8/structgate)**
 
@@ -241,5 +241,6 @@ React, TypeScript and Vite.
 ### Find me
 
 [midya.ca](https://midya.ca) · [LinkedIn](https://www.linkedin.com/in/midyarahmani/)
+
 
 
