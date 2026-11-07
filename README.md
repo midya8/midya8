@@ -6,6 +6,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[AttnLens](https://github.com/midya8/attnlens)**
+
+Causal multi-head self-attention trained from scratch in pure Python: hand-derived
+backpropagation finite-difference-checked for every parameter group on the test
+fixture, and a marker-recall task where the trained model's query position
+concentrates attention on the recalled key (~0.9 weight, measured on the
+checked-in seed), with per-head pattern analysis wired into CI gates.
+Dependency-free Python, 46 unit tests, a fully offline demo, and CI across
+Python 3.10-3.13.
+
 **[EmbedKit](https://github.com/midya8/embedkit)**
 
 Word embeddings trained from scratch with pure-Python SGNS: sigmoid-gradient
