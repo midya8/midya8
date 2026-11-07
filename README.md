@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[CalibrLab](https://github.com/midya8/calibrlab)**
+
+Confidence calibration from scratch in pure Python: an overfit small-data MLP (train 1.0000, test 0.5563) is measured badly overconfident on the checked-in fixture (ECE 0.2765; top bin 0.9735 confidence at 0.6602 accuracy), then one temperature fit on validation NLL only cuts ECE to 0.0651 and test NLL from 2.0030 to 1.2060 at exactly zero accuracy change - the invariance asserted bit-for-bit, the oracle-T gap reported (0.0076), and gradients hand-derived and finite-difference verified. (16 tests)
+
 **[DistillLab](https://github.com/midya8/distilllab)**
 
 Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344), measured against matched control arms - pseudo-labels on the teacher's argmax exceed direct by +0.0281 and soft-label distillation exceeds pseudo by +0.0375, with uniform smoothing adding nothing and a permuted-target arm at chance; these between-arm differences are fixture measurements, not causal attribution. Gradients hand-derived and finite-difference verified, overfit gap measured (0.3187 direct vs 0.0531 distilled). (12 tests)
