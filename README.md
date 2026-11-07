@@ -6,6 +6,15 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[RAGLine](https://github.com/midya8/ragline)**
+
+Retrieval-augmented answering from scratch in pure Python: deterministic corpus,
+token-hashed sparse embeddings, top-k retrieval, extractive answers that cite
+their source chunk, and a grounding check verified to fail on corrupted
+citations. Fixture evaluation pinned in CI (recall@3 1.00, MRR 0.94, grounded
+1.00). Dependency-free Python, 31 unit tests, a fully offline demo, and CI
+across Python 3.10-3.13.
+
 **[KVLens](https://github.com/midya8/kvlens)**
 
 KV-cached incremental decoding from scratch in pure Python: batched prefill plus
