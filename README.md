@@ -33,6 +33,15 @@ metadata frontmatter checks, redacted terminal/JSON/escaped HTML reports,
 and severity or finding-count CI gates. Dependency-free Python, 28 unit
 tests, a fully offline safe/risky fixture demo, and CI across Python 3.10-3.13.
 
+**[ScratchGPT](https://github.com/midya8/scratchgpt)**
+
+A GPT built and trained from scratch in pure NumPy: a ~400-line reverse-mode
+autograd engine with hand-written backward rules, a pre-LN causal transformer,
+Adam training, resumable checkpoints, and a temperature/top-k sampling CLI. The
+shipped TinyShakespeare config trains a 419,328-parameter 2-layer/4-head model
+to 1.83 nats/char validation loss on CPU; 11 unit tests check gradients
+against finite differences and prove no causal attention leak. CI on Python 3.12.
+
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
