@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[SpecLab](https://github.com/midya8/speclab)**
+
+Speculative decoding from scratch in pure Python: a draft model proposes token blocks, a target model verifies each block in one counted pass, and output is proven token-for-token identical to target-only greedy decoding (across model configs and block sizes in the test suite) while target evaluations drop a measured 74.6% on the checked-in fixture (acceptance 0.800). Dependency-free Python, 16 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+
 **[StructGate](https://github.com/midya8/structgate)**
 
 Grammar-constrained generation from scratch in pure Python: incremental JSON and closed-schema validators compute the exact legal next-token set per prefix, an exact n-gram distribution is masked to it during generation, and the trade-off is measured - 40/40 schema-conforming draws vs a 3/40 unconstrained control, with the renormalization cost reported per step in nats (mean 1.35 grammar, 0.82 schema on the checked-in fixture). Dependency-free Python, 33 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
@@ -237,4 +241,5 @@ React, TypeScript and Vite.
 ### Find me
 
 [midya.ca](https://midya.ca) · [LinkedIn](https://www.linkedin.com/in/midyarahmani/)
+
 
