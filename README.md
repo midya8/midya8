@@ -6,6 +6,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[EmbedKit](https://github.com/midya8/embedkit)**
+
+Word embeddings trained from scratch with pure-Python SGNS: sigmoid-gradient
+SGD with unigram^0.75 negative sampling, one seeded RNG for reproducible
+vectors, and a topic-coherence evaluator (neighbor purity plus an
+intra/inter separation margin) wired into CI gates. Dependency-free Python,
+40 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+
 **[PlanBench](https://github.com/midya8/planbench)**
 
 Validation and deterministic simulation of agent task plans before they run:
