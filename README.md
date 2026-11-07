@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[SetGuard](https://github.com/midya8/setguard)**
+
+Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every-class/input or shifted-data guarantees. Dependency-free Python, 20 tests and offline CI.
+
 **[CalibrLab](https://github.com/midya8/calibrlab)**
 
 Confidence calibration from scratch in pure Python, with a JSON CLI/API for your own validation/test logits and unclipped logit-space NLL, plus optional conditional paired test-row bootstrap intervals: an overfit small-data MLP (train 1.0000, test 0.5563) is measured badly overconfident on the checked-in fixture (ECE 0.2765; top bin 0.9735 confidence at 0.6602 accuracy), then one temperature fit on validation NLL only cuts ECE to 0.0651 and test NLL from 2.0030 to 1.2060 at exactly zero accuracy change - the invariance asserted bit-for-bit, the oracle-T gap reported (0.0076), and gradients hand-derived and finite-difference verified. (45 tests)
