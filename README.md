@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[GraphLab](https://github.com/midya8/graphlab)**
+
+Two-layer graph convolution from scratch: sparse symmetric normalization, handwritten gradients, masked node supervision and validation-only checkpoint selection. On a disclosed 96-node community graph, selected GCN test accuracy is 0.96875; same-parameter feature MLP 0.34375 and scrambled-graph GCN 0.515625, with last checkpoints and a centroid control also shown. All node features/edges are visible, test labels withheld: transductive development data, not unseen-graph generalization. A six-cycle and two triangles give identical constant-feature outputs, exposing an exact blind spot. 23 tests, strict artifacts and offline CLI/SVG; no causal-component or general ranking claim.
+
 **[DiffuseLab](https://github.com/midya8/diffuselab)**
 
 Learned 2-D diffusion from scratch, now with selected-grid DDIM sampling and exact denoiser-call audits. The same 482-parameter model uses 8/16/64 DDIM steps without retraining. Eight steps saves 87.5% of predictor calls but has worse symmetric reference distance here (0.210661 vs DDPM 0.037103), despite a slightly higher near-center fraction. All 8 neighborhoods reached, uneven frequencies and outliers retained. Full-grid eta=1 matches DDPM arithmetic with matched draws. 33 tests, strict artifacts and offline train/sample/DDIM CLI. Development fixture only, no walltime speedup, image-generation or general ranking claim.
