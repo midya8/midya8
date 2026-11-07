@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[KernelLab](https://github.com/midya8/kernellab)**
 
-Gaussian-process regression from scratch: Cholesky conditioning, latent versus observation covariance, explicit training jitter, marginal likelihood and fixed-parameter leave-one-out audits. A noisy synthetic fixture compares length scales 0.8 and 5: observation RMSE 0.6242 versus 1.0038, mean NLL 0.1041 versus 12.1309. The adverse arm stays visible: smaller model variance can be confidently wrong. Model-based pointwise bands are not calibrated coverage guarantees. Independent inverse/LOO-refit checks, versioned JSON artifacts, dependency-free Python, 25 tests and reproducible SVG/CLI demo.
+Gaussian-process regression and finite-grid expected-improvement suggestions from scratch. Cholesky solves, separate latent/observation covariance, explicit jitter, marginal likelihood and fixed-parameter LOO. Deterministic EI excludes known rows and returns a full candidate audit, without executing evaluations. A nine-evaluation toy optimization comparison reports grid regret 0.000163 (EI), 0.072944 (space filling) and 0.399473 (one seeded random control). Same pool/initialization/budget; development data, no general ranking or continuous optimum claim. The regression misspecification counterexample remains visible. Dependency-free Python, 36 tests, offline CLI and reproducible SVGs.
 
 **[BoostLab](https://github.com/midya8/boostlab)**
 
