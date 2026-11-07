@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[MoeLab](https://github.com/midya8/moelab)**
 
-Mixture-of-experts from scratch in pure Python: Switch-style sparse routing over linear experts on a regime-switching fixture no single dense map can fit - 0.0303 vs 0.1853 test MSE against a slightly larger MLP baseline, worst-regime routing purity 1.0000, soft-vs-sparse gap measured (0.6291 vs 0.0303), gradients hand-derived and finite-difference verified, and an honest note that the load-balancing term earns nothing on this symmetric fixture. (9 tests)
+Mixture-of-experts from scratch in pure Python: Switch-style sparse routing over linear experts on a regime-switching fixture, beating a measured same-budget MLP baseline 0.0303 vs 0.1853 test MSE, worst-regime routing purity 1.0000, soft-vs-sparse gap measured (0.6291 vs 0.0303), gradients hand-derived and finite-difference verified, and an honest note that the load-balancing term earns nothing on this symmetric fixture. (9 tests)
 
 **[AlignLab](https://github.com/midya8/alignlab)**
 
