@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[TransportLab](https://github.com/midya8/transportlab)**
 
-Log-domain entropic optimal transport with full mass plans, explicit nonconvergence and weighted interpolation atoms. Full pushforward preserves actual endpoint marginals; barycentric means do not: at epsilon2, target variance trace1.888889 versus mean-map0.861140. Covariance decomposition, zero masses and actual-mass semantics are audited. Original epsilon0.1 iteration-cap failure, exact uniform-assignment reference and positive self-cost remain visible. 24 tests, offline solve/assignment/push CLI and SVGs. Not a metric, sampled trajectory, learned correspondence or optimality certificate.
+Log-domain entropic optimal transport with full mass plans, explicit nonconvergence and weighted interpolation atoms. Full pushforward preserves actual endpoint marginals; barycentric means do not: at epsilon2, target variance trace1.888889 versus mean-map0.861140. Separate rounded primal/dual audits retain raw failed solves, reveal invalid raw-objective bounds and report signed numerical gaps, marginal residuals and L1 changes. Zero masses, covariance decomposition, exact uniform assignment and positive self-cost remain visible. 36 tests, offline solve/assignment/push/audit CLI and SVGs. Not a metric, sampled trajectory, learned correspondence, unregularized OT bound or interval-certified optimality certificate.
 
 **[FlowLab](https://github.com/midya8/flowlab)**
 
