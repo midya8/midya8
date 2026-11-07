@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[ShapleyLab](https://github.com/midya8/shapleylab)**
 
-Exact small-feature Shapley attribution from scratch: all empirical-background coalitions auditable, callback API and JSON CLI. Same product prediction 6 gives [3, 3, 0] or [2, 3, 0] with different backgrounds. An off-manifold hybrid counterexample passes additivity, showing why exact arithmetic is not explanation validity. Joint missing-feature dependence preserved; preflight exponential-work budget; independent factorial reference checks. No conditional/causal or trained-model quality claim. Dependency-free Python, 22 tests and offline CI.
+Exact small-feature Shapley attribution from scratch: all empirical-background coalitions auditable, callback API and JSON CLI. Same product prediction 6 gives [3, 3, 0] or [2, 3, 0] with different backgrounds. An off-manifold hybrid counterexample passes additivity, showing why exact arithmetic is not explanation validity. Joint missing-feature dependence preserved; preflight exponential-work budget; independent factorial reference checks. No conditional/causal or trained-model quality claim. Optional atomic groups move correlated blocks together. Three-way product gives grouped [1/2, 1/2], not post-hoc [2/3, 1/3]; grouped games answer a different question. Up to 64 raw features/12 groups, no within-group credit split or cross-group dependence guarantee. Dependency-free Python, 34 tests and offline CI.
 
 **[PolicyLens](https://github.com/midya8/policylens)**
 
