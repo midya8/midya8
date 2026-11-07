@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[BoostLab](https://github.com/midya8/boostlab)**
 
-Binary gradient boosting from scratch: Bernoulli residuals, greedy shallow trees, stable logit loss and validation-only prefix selection. A noisy interaction development fixture gives depth-2 test accuracy 0.8906/logloss 0.3400 with 80 trees/556 nodes. The full 80-round stump control is shown (0.6367/0.7366), while validation selects its zero-tree prefix (0.4980/0.7060). Same rounds, different capacity; no causal-depth or external-benchmark claim. Finite-difference gradients, serialized checkpoints and a rejecting validation gate. Fixed first-order mean leaves, not Newton boosting. Dependency-free Python, 19 tests and offline CI.
+Binary gradient boosting from scratch: mean-residual defaults plus optional capped, L2-regularized Newton leaves on residual-SSE trees. The development fixture selects 35 Newton trees/237 nodes, test accuracy 0.9004/logloss 0.3341; its unselected 80-round checkpoint is also shown (0.8984/0.3469). Mean depth-2 control: 0.8906/0.3400; full-budget stumps: 0.6367/0.7366. Different capacity and settings, no causal or external-benchmark claim. Backward-compatible v1/v2 inference, Hessian/leaf arithmetic tests, validation-only prefix selection. Dependency-free Python, 29 tests and offline CI.
 
 **[ShapleyLab](https://github.com/midya8/shapleylab)**
 
