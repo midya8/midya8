@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[GraphLab](https://github.com/midya8/graphlab)**
 
-Two-layer graph convolution from scratch: sparse symmetric normalization, handwritten gradients, masked node supervision and validation-only checkpoint selection. On a disclosed 96-node community graph, selected GCN test accuracy is 0.96875; same-parameter feature MLP 0.34375 and scrambled-graph GCN 0.515625, with last checkpoints and a centroid control also shown. All node features/edges are visible, test labels withheld: transductive development data, not unseen-graph generalization. A six-cycle and two triangles give identical constant-feature outputs, exposing an exact blind spot. 23 tests, strict artifacts and offline CLI/SVG; no causal-component or general ranking claim.
+Two-layer GCN from scratch, now with exact input gradients for a chosen node/class-logit margin, signed gradient-times-input sums and two-hop receptive-field audits. A hand-set path example sums to margin 0.598556 with zero reported residual, while a dead-ReLU counterexample shows zero local gradient does not mean no large-change effect. Original 96-node transductive development results remain: selected GCN test0.96875, same-parameter MLP0.34375, scrambled GCN0.515625; final checkpoints and centroid control visible. Synthetic edges carry class signal; features/edges visible, test labels withheld. Cycle/triangles expressivity blind spot, 34 tests and offline CLI/SVGs. No causal, probability-attribution, unseen-graph or general ranking claim.
 
 **[DiffuseLab](https://github.com/midya8/diffuselab)**
 
