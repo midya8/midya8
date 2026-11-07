@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[FlowLab](https://github.com/midya8/flowlab)**
+
+Affine-coupling normalizing flow from scratch: exact 2-D model log density, explicit inverse sampling, bounded log scales and handwritten likelihood gradients. A 200-parameter flow gives test NLL2.188408 on a disclosed banana-shaped development fixture, vs train-fitted full-covariance Gaussian2.907770 and untrained flow2.896854; known generating density2.151426 is report-only. Test roundtrip/logdet residual max1.78e-15 is an implementation audit, not a global error bound. Sample residuals/outliers remain visible. 22 tests, strict artifacts and offline train/score/sample CLI. No exact-fit, image, anomaly-detection or general ranking claim.
+
 **[GraphLab](https://github.com/midya8/graphlab)**
 
 Two-layer GCN from scratch with exact input-margin gradients and budgeted single-edge deletion sensitivity. Input locality differs from graph normalization: node 3 has zero feature gradient for node 0, yet deleting edge 2-3 changes its margin by +0.016852 after degree renormalization. Full signed contributions, every edge effect, preflight call budgets and zero-gradient/large-change counterexample. Original transductive development results remain: selected GCN0.96875, MLP0.34375, scrambled GCN0.515625; final/centroid controls visible. Synthetic graph carries class signal; no causal, probability-attribution, unseen-graph or general ranking claim. 42 tests, strict artifacts and offline CLI/SVGs.
