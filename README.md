@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[SegmentLab](https://github.com/midya8/segmentlab)**
 
-Exact offline Gaussian changepoint inference that exposes confident outlier cuts, impossible joint events and the gap between MAP and minimum expected boundary loss. Normalized constrained priors, full partition marginals, direct joint draws and entropy/KL audits remain inspectable.90 tests, exhaustive tiny references, dependency-free Python, strict JSON CLI and two reproducible SVGs. Supplied model assumptions, not online event detection or real-data calibration.
+Exact offline Gaussian changepoint inference that exposes confident outlier cuts, impossible joint events and the gap between MAP and minimum expected boundary loss. Normalized constrained priors, full partition marginals, direct joint draws and entropy/KL audits remain inspectable. 90 tests, exhaustive tiny references, dependency-free Python, strict JSON CLI and two reproducible SVGs. Supplied model assumptions, not online event detection or real-data calibration.
 
 **[HamiltonLab](https://github.com/midya8/hamiltonlab)**
 
