@@ -7,9 +7,11 @@ agentic systems and workflow automation.
 ### Projects
 
 **[AlignLab](https://github.com/midya8/alignlab)**
-Preference-based alignment from scratch in pure Python: train a Bradley-Terry reward model on pairwise preferences (0.7800 holdout accuracy vs 0.4333 for a noise-trained control), then align a policy by gradient ascent on expected reward minus an exact KL penalty - true latent utility rises 2.04 to 4.62 while the label-noise control buys almost nothing, the beta=0 collapse ablation is gated, and every expectation and gradient is closed-form and finite-difference verified. (15 tests)
+
+Preference-based alignment from scratch in pure Python: train a Bradley-Terry reward model on pairwise preferences (0.7800 holdout accuracy vs 0.4333 for a noise-trained control), then align a policy by gradient ascent on expected reward minus an exact KL penalty - true latent utility rises 2.04 to 4.62 while on the checked-in fixture the label-noise control buys almost nothing (a fixture comparison, not a general proof), the beta=0 collapse ablation is gated, and every expectation and gradient is closed-form and finite-difference verified. (15 tests)
 
 **[LoRALab](https://github.com/midya8/loralab)**
+
 Low-rank adaptation from scratch in pure Python: freeze a trained model, learn only a rank-r delta W + B@A with hand-derived gradients, and measure all three sides of the trade-off - accuracy on the shifted distribution (0.44 recovered to 1.0000 at rank 2 on the checked-in fixture), trainable-parameter share (67.7% of full fine-tuning), and retained accuracy on the original distribution, with merge equivalence pinned to floating-point reassociation error and gates that fail in both directions. (14 tests)
 
 **[SpecLab](https://github.com/midya8/speclab)**
