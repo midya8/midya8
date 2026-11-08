@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[Correlab](https://github.com/midya8/correlab)**
 
-Exact-rational general-sum joint-play obedience, finite-history and private override-signal certificates. Coarse, pairwise, full-swap and conditional gains retain every term and attaining deviation. v0.2 adds explicit hidden-baseline pass/override channels, supplied post-garbling lifts with exact slack identities, and all action partitions through size four. Developed controls give gains 4/3, 5/3, 1 for three two-signal partitions; attributed Roth reveal controls bridge 0 to 11/30. Two reproducible SVGs, seven-module/seven-CLI wheel parity and 49 tests. Supplied finite models only, not an equilibrium solver, learned information design, universal channel-order test, privacy or safety guarantee.
+Exact-rational general-sum joint-play obedience, finite-history and private override-signal certificates. Coarse, pairwise, full-swap and conditional gains retain every term and attaining deviation. v0.2 adds explicit hidden-baseline pass/override channels, supplied post-garbling lifts with exact slack identities, and all action partitions through size four. Developed controls give gains 4/3, 5/3, 1 for three two-signal partitions; attributed Roth reveal controls bridge 0 to 11/30. Two reproducible SVGs, seven-module/seven-CLI wheel parity and 50 tests. Supplied finite models only, not an equilibrium solver, learned information design, universal channel-order test, privacy or safety guarantee.
 
 **[GameLab](https://github.com/midya8/gamelab)**
 
