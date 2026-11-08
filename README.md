@@ -227,7 +227,7 @@ Knowledge distillation from scratch in pure Python: a 10x smaller student gains 
 
 **[MoeLab](https://github.com/midya8/moelab)**
 
-Mixture-of-experts from scratch in pure Python: Switch-style sparse routing over linear experts on a regime-switching fixture, beating a measured same-budget MLP baseline 0.0303 vs 0.1853 test MSE, worst-regime routing purity 1.0000, soft-vs-sparse gap measured (0.6291 vs 0.0303), gradients hand-derived and finite-difference verified, and an honest note that the load-balancing term earns nothing on this symmetric fixture. (9 tests)
+Sparse mixture from scratch with an [interactive exact-route inspector](https://midya8.github.io/moelab/): Python Fraction and independent browser BigInt cells, point ties, one-sided jumps and fixed-branch derivatives. Rounded inference and exact affine geometry stay distinct; three balance statistics are not interchangeable. Original aux/no-aux/initialization, dense baseline and all 340 rows retained: aux MSE 0.0303 vs dense 0.1853, soft 0.6291, no-aux 0.0015, purity 1.0000 on the synthetic fixture. 39 Python + five Node/Chrome tests, 32 full witnesses and installed-wheel reproduction. No causal, generalization, robustness or serving-speed claim.
 
 **[AlignLab](https://github.com/midya8/alignlab)**
 
