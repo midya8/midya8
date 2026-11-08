@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[LatentLab](https://github.com/midya8/latentlab)**
+
+A Gaussian variational autoencoder trained from scalar Python operations, with all 150 pathwise parameter gradients checked independently. On a measured eight-mode fixture, beta 0 reconstructs slightly better (MSE 0.00268 vs 0.00281) but has worse prior samples (sliced W2 squared 0.0676 vs 0.0241) and a much higher negative ELBO (8.0758 vs 1.6600). Even beta 1 generates 51.56% of observations outside the disclosed mode neighborhoods. 25 tests cover nine full-gradient settings, Adam, strict checkpoints, deterministic training and a six-panel reproducible SVG. Four-module wheel runs outside checkout. One synthetic seed, bounded diagonal posterior and fixed observation noise; not image generation, a likelihood estimator or distribution recovery.
+
 **[ErgodLab](https://github.com/midya8/ergodlab)**
 
 Exact rational stationary policy sensitivity, Poisson bias and Markov reward audits. Independent directed spanning-tree derivatives match normalized stationary linear systems. The discounted extension separates the true fixed-start objective gradient from a stationary proxy: at beta 1/2 the proxy has exact curl -1/147, ruling out a local scalar potential, and differs from the true gradient [5/98,-1/98]. At beta 1 it uses the centered Poisson limit, not a singular inverse. Original fixtures retain the occupancy-only gradient 1/18 and sticky/alternating reward variances 7/4 versus 0 despite identical one-step variance 1/4. 39 tests cover independent paths, determinants, finite differences, analytic proxy/curl grids and two reproducible SVGs. Six-module wheel verified outside checkout. Supplied finite irreducible models, not GPOMDP, training, gradient-estimator variance, a CLT or a monotone-bias guarantee.
