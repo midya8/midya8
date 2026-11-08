@@ -148,7 +148,7 @@ Low-rank adaptation from scratch in pure Python: freeze a trained model, learn o
 
 **[SpecLab](https://github.com/midya8/speclab)**
 
-Speculative decoding from scratch in pure Python: a draft model proposes token blocks, a target model verifies each block, and a greedy-construction invariant keeps output identical to target-only decoding - the implementation verified token-for-token on tested configs and gammas - while modeled verification rounds drop 74.6% on the checked-in fixture (acceptance 0.800), with actual scoring work reported alongside the modeled count. Dependency-free Python, 14 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+Speculative decoding from scratch: the original greedy n-gram verifier plus exact stochastic residual correction on tiny finite autoregressive tables. Complete proposal/rejection/bonus witnesses, full sequence/count laws and an independent integer-ticket sampler check probability-law equivalence, not same-seed output. Corrected TV is zero; wrong target fallback reaches `141/1024`. Expected rounds and target scoring positions stay separate, with hypothetical cost controls rather than GPU speed claims. 34 tests include 2,187 prefix-table pairs and exhaustive procedural RNG-ticket checks; five-job CI verifies saved figures/witnesses and installed-wheel parity. No real-LLM benchmark.
 
 **[StructGate](https://github.com/midya8/structgate)**
 
