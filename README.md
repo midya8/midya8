@@ -8,7 +8,7 @@ agentic systems and workflow automation.
 
 **[TreeLab](https://github.com/midya8/treelab)**
 
-From-scratch CART, pruning and group-bootstrap bagging now expose exact one-feature response partitions. Hold the other inputs fixed, retain every reachable leaf boundary and member output, and return attainable min/max outputs with concrete binary64 witness inputs. A fixed first-three-row demo saves 66 slices and 1,028 segments; 70 tests check direct boundary traversal, adjacent floats, full leaf-box intersections and an opposite-stump control where separate member maxima are unattainable together. Seven-module/thirteen-CLI wheel checks, three reproducible audits and all original data/models/metrics remain. Established ICE-style model analysis, not causal effects, plausible-wine guarantees, uncertainty intervals or joint-feature robustness. Historical bagging RMSE 0.70521 versus same-fit OLS 0.73422 remains a reused-test descriptive result.
+A [live response explorer](https://midya8.github.io/treelab/) exposes exact one-feature slices for from-scratch CART and group-bootstrap trees. Choose any of 66 frozen slices, inspect all 1,028 segment witnesses and member leaf outputs, and copy or download a complete input attaining a minimum or maximum. Responsive curves, keyboard controls and explicit copy-denial fallback are tested in real Chrome at 320/390/1280px. 72 Python tests plus three Node/Chrome tests include all UI slice/segment displays and unchanged numerical oracles; seven-module/thirteen-CLI wheel checks and three audits remain. No API, refit, new inference or data uploads. Established model-response analysis, not causality, uncertainty, plausible-wine guarantees or joint-feature robustness.
 
 **[DigitLab](https://github.com/midya8/digitlab)**
 
