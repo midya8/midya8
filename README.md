@@ -215,7 +215,9 @@ Split-conformal classification sets from scratch: JSON fit/predict artifacts, fi
 
 **[CalibrLab](https://github.com/midya8/calibrlab)**
 
-Confidence calibration from scratch in pure Python, with a JSON CLI/API for your own validation/test logits and unclipped logit-space NLL, plus optional conditional paired test-row bootstrap intervals: an overfit small-data MLP (train 1.0000, test 0.5563) is measured badly overconfident on the checked-in fixture (ECE 0.2765; top bin 0.9735 confidence at 0.6602 accuracy), then one temperature fit on validation NLL only cuts ECE to 0.0651 and test NLL from 2.0030 to 1.2060 at exactly zero accuracy change - the invariance asserted bit-for-bit, the oracle-T gap reported (0.0076), and gradients hand-derived and finite-difference verified. (45 tests)
+Confidence calibration from scratch in pure Python, with a JSON CLI/API for your own validation/test logits and unclipped logit-space NLL, plus optional conditional paired test-row bootstrap intervals: an overfit small-data MLP (train 1.0000, test 0.5563) is measured badly overconfident on the checked-in fixture (ECE 0.2765; top bin 0.9735 confidence at 0.6602 accuracy), then one temperature fit on validation NLL only cuts ECE to 0.0651 and test NLL from 2.0030 to 1.2060 at exactly zero accuracy change - the invariance asserted bit-for-bit, the oracle-T gap reported (0.0076), and gradients hand-derived and finite-difference verified. (56 Python tests plus four Node/Chrome tests)
+
+[Live score ledger](https://midya8.github.io/calibrlab/) exposes five synthetic controls, every row logit NLL/class Brier term, confidence-bin gap, migration count and fixed-temperature deletion, with19sampled temperatures and full JSON. Independent native/browser arithmetic matches95witnesses; installed wheel rebuilds original training/logits/report. Original evidence unchanged. No calibration-only, causal, uncertainty or deployment claim; full-precision oracle gap rounds to.0075 versus.0076 from rounded NLL subtraction.
 
 **[DistillLab](https://github.com/midya8/distilllab)**
 
