@@ -208,7 +208,10 @@ Embedding-distribution comparison from scratch: unbiased RBF MMD, cached-kernel 
 
 **[SetGuard](https://github.com/midya8/setguard)**
 
-Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics, plus optional label-conditional classwise thresholds with explicit rare-class inclusion. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every realized class rate/input or shifted-data guarantees. Classwise mode targets coverage within true labels under its stated exchangeability assumptions, at a set-size cost. Dependency-free Python, 31 tests and offline CI.
+Split-conformal classification sets from scratch: JSON fit/predict artifacts, finite-sample rank correction, exact tied-score audits and per-class/size diagnostics, plus optional label-conditional classwise thresholds with explicit rare-class inclusion. On the five-class development fixture, target 0.9 gives empirical coverage 0.9235 at mean set size 3.017 versus argmax accuracy 0.4960; a deliberately adversarial label shift drops coverage to 0.0760. The standard marginal-coverage theorem needs exchangeability and a predictor fixed independently of calibration, not every realized class rate/input or shifted-data guarantees. Classwise mode targets coverage within true labels under its stated exchangeability assumptions, at a set-size cost. Dependency-free Python, 41 Python tests plus four Node/Chrome tests and offline CI.
+
+[Live rank ledger](https://midya8.github.io/setguard/) adds five fixed synthetic controls, every boundary tie and pooled/classwise label inclusion, 19 alpha samples, full JSON and held-position rank checks. Independent native/browser arithmetic matches 95 witnesses; installed wheel reproduces the original reports. Original controls remain attached. No fixed-split, causal, uncertainty or deployment guarantee.
+
 
 **[CalibrLab](https://github.com/midya8/calibrlab)**
 
