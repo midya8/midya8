@@ -148,7 +148,7 @@ Low-rank adaptation from scratch in pure Python: freeze a trained model, learn o
 
 **[SpecLab](https://github.com/midya8/speclab)**
 
-Speculative decoding from scratch: the original greedy n-gram verifier plus exact stochastic residual correction on tiny finite autoregressive tables. Complete proposal/rejection/bonus witnesses, full sequence/count laws and an independent integer-ticket sampler check probability-law equivalence, not same-seed output. Corrected TV is zero; wrong target fallback reaches `141/1024`. Expected rounds and target scoring positions stay separate, with hypothetical cost controls rather than GPU speed claims. 34 tests include 2,187 prefix-table pairs and exhaustive procedural RNG-ticket checks; five-job CI verifies saved figures/witnesses and installed-wheel parity. No real-LLM benchmark.
+Speculative decoding from scratch: greedy verification, exact stochastic residual correction and a prefix-conditioned oracle lookahead planner with no-draft action 0. Complete Bellman action/transition/slack certificates and full sequence/count laws keep probability correctness separate from assigned cost. Switching fixture: `23/10` hypothetical units versus best fixed `47/20`; score-work prices choose no speculation. 47 tests include exhaustive tiny-policy enumeration and independent joint-law checks, with all previous stochastic controls preserved. Five-job CI checks seven modes from an installed 12-module wheel. Full-known-table oracle only: planning overhead is unpriced, no real-LLM benchmark, measured latency or new-algorithm claim.
 
 **[StructGate](https://github.com/midya8/structgate)**
 
