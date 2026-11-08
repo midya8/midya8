@@ -221,7 +221,9 @@ Confidence calibration from scratch in pure Python, with a JSON CLI/API for your
 
 **[DistillLab](https://github.com/midya8/distilllab)**
 
-Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344), measured against matched control arms - pseudo-labels on the teacher's argmax exceed direct by +0.0281 and soft-label distillation exceeds pseudo by +0.0375, with uniform smoothing adding nothing and a permuted-target arm at chance; these between-arm differences are fixture measurements, not causal attribution. Gradients hand-derived and finite-difference verified, overfit gap measured (0.3187 direct vs 0.0531 distilled). (12 tests)
+Knowledge distillation from scratch in pure Python: a 10x smaller student gains +0.0656 test accuracy over direct training on the checked-in fixture (0.7469 vs 0.6813; teacher 0.8344), measured against matched control arms - pseudo-labels on the teacher's argmax exceed direct by +0.0281 and soft-label distillation exceeds pseudo by +0.0375, with uniform smoothing adding nothing and a permuted-target arm at chance; these between-arm differences are fixture measurements, not causal attribution. Gradients hand-derived and finite-difference verified, overfit gap measured (0.3187 direct vs 0.0531 distilled). (24 Python tests plus four Node/Chrome tests)
+
+[Live student-gradient inspector](https://midya8.github.io/distilllab/) exposes every parameter update, hard/soft class derivative, CE/entropy/KL term and all 400 original split predictions. Six original trained students and their initialization stay attached, alongside a small finite-step overshoot control. Independent native/browser witnesses and installed training/wheel reproduction preserve the original experiment. One local update does not identify a causal mechanism, calibration or deployment benefit; stable unclipped inspector losses and the original probability floor are distinguished explicitly.
 
 **[MoeLab](https://github.com/midya8/moelab)**
 
