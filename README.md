@@ -246,15 +246,10 @@ Speculative decoding from scratch: greedy verification, exact stochastic residua
 
 Grammar-constrained generation from scratch in pure Python: incremental JSON and closed-schema validators compute the exact legal next-token set per prefix, an exact n-gram distribution is masked to it during generation, and the trade-off is measured - 40/40 schema-conforming draws vs a 3/40 unconstrained control, with the renormalization cost reported per step in nats (mean 1.35 grammar, 0.82 schema on the checked-in fixture). Dependency-free Python, 33 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
 
-**[QuantLab](https://github.com/midya8/quantlab)**
+**[QuantLab](https://github.com/midya8/quantlab)** · [Live inspector](https://midya8.github.io/quantlab/)
 
-int8 post-training quantization from scratch in pure Python: symmetric
-per-tensor and per-channel scales, byte-exact size accounting, and a trained
-fixture model whose int8 accuracy cost is measured exactly (0.0000 drop at
-3.765x smaller storage on the checked-in fixture), plus a controlled study
-locating where quantization error lives (+39.14 dB small-row SNR for
-per-channel). Dependency-free Python, 28 unit tests, a fully offline demo,
-and CI across Python 3.10-3.13.
+Real QLB1 int8 files, IEEE32/64 scales and an independent editable browser inspector: every coefficient, signed logit-error contribution and exact fixed-input margin. Original 60-example fixture and magnitude controls preserved; 39 Python tests and four Node/actual-Chrome tests compare 52 full reports. Actual row files are 232/244 B, not the original 204 B analytic payload. No integer-kernel or speed claim.
+
 
 **[RAGLine](https://github.com/midya8/ragline)**
 
