@@ -292,7 +292,7 @@ Python, 29 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
 
 **[DecodeLab](https://github.com/midya8/decodelab)**
 
-Stable staged sampling, complete finite continuation trees and full beam-pruning witnesses. Normalized temperature/top-k/top-p, EOS versus cap mass, and exhaustive same-objective oracles expose both lost better futures and a width 2-worse-than-width 1/3 counterexample. Editable independent scalar-JavaScript inspector with every outcome and JSON export. 54 Python tests (36 original unchanged), 90-digit Decimal/rational references,32 retained audits, 120 staged cases, 7,927 independent numerical checks, actual Chrome and installed-wheel reproduction. Original n-gram CLI/corpus/demo preserved. Synthetic arithmetic/search audits, not text-quality evidence or a new decoding algorithm.
+Stable staged sampling, complete finite continuation trees and full beam-pruning witnesses. Normalized temperature/top-k/top-p, EOS versus cap mass, and exhaustive same-objective oracles expose both lost better futures and a width 2-worse-than-width 1/3 counterexample. Editable independent scalar-JavaScript inspector with every outcome and JSON export. 54 Python tests (36 original unchanged), 90-digit Decimal/rational references, 32 retained audits, 120 staged cases, 7,927 independent numerical checks, actual Chrome and installed-wheel reproduction. Original n-gram CLI/corpus/demo preserved. Synthetic arithmetic/search audits, not text-quality evidence or a new decoding algorithm.
 
 [Live inspector](https://midya8.github.io/decodelab/)
 
