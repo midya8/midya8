@@ -358,17 +358,11 @@ Full-record graph/timing inspector: every endpoint, interval segment, parent pat
 
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
-Local-first prompt, secret and prompt-injection linting for AI systems:
-OpenAI/AWS-style key, GitHub/Slack/Google token and JWT checks, assigned-secret
-and private-key detection, email/phone/Luhn-validated card detection,
-injection-language rules, prompt metadata frontmatter checks, redacted
-terminal, JSON, SARIF, JUnit XML, Markdown and escaped HTML reports, severity
-or finding-count CI gates, and fingerprint-based baseline suppression so CI
-only gates on new findings.
-Dependency-free Python, 68 unit tests, a fully offline fixture demo that
-validates SARIF, JUnit and Markdown output and the baseline suppression flow
-against safe, risky and runtime-generated token fixtures, and CI across Python
-3.10-3.13.
+Local-first prompt linting with a full-stage baseline and CI-gate witness. Native fixes redact before truncation, retain all recognized sensitive matches per line and fail incomplete scans. An [independent policy inspector](https://midya8.github.io/promptguard/) recomputes every abstract finding through filter, suppression and gate stages with complete JSON export.
+
+- 87 Python tests on 3.10-3.13 preserve all original 68 tests, fixtures and offline demo; 13,320 exhaustive small policy controls.
+- 27 complete independent reports, actual Chrome checks of 50 current rows, 17 prior rows and 181 stage circles, plus isolated installed-wheel reproduction across eight module origins.
+- Existing scanner/report formats remain. Fingerprint aliases and metadata-identity migration are explicit; real baselines and witnesses must stay private. No new detection patterns or security-effectiveness claim.
 
 **[ScratchGPT](https://github.com/midya8/scratchgpt)**
 
