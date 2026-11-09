@@ -272,13 +272,9 @@ Independent full-tensor attention/cache inspector with final-query-only no-cache
 
 **[AttnLens](https://github.com/midya8/attnlens)**
 
-Causal multi-head self-attention trained from scratch in pure Python: hand-derived
-backpropagation finite-difference-checked for every parameter group on the test
-fixture, and a marker-recall task where the trained model's query position
-concentrates attention on the recalled key (~0.9 weight, measured on the
-checked-in seed), with per-head pattern analysis wired into CI gates.
-Dependency-free Python, 46 unit tests, a fully offline demo, and CI across
-Python 3.10-3.13.
+A real manually differentiated attention trainer with a fixed-weight intervention workbench. Independent JavaScript recomputes all downstream tensors after head-output ablations, exposes all 16 head subsets on the original 128-example held-out split, and tests matched key/filler changes. Complete trained and same-seed initialization checkpoints, all source weights and full audit exports. Repairs a clipped-loss/nonzero-gradient mismatch with stable log-sum-exp. 59 Python tests retain all 46 originals; three Node/actual-Chrome tests compare 352 full tensor reports and 22 audits, with 704 displayed head-row views. One seed and synthetic task, zero-ablation distribution shift and nonadditivity visible; no attention-as-explanation or discovered-circuit claim.
+
+[Live workbench](https://midya8.github.io/attnlens/) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/attnlens.md)
 
 **[EmbedKit](https://github.com/midya8/embedkit)**
 
