@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[DPPLab](https://github.com/midya8/dpplab)**
+
+Exact-rational finite DPP subset laws with every determinant, inclusion-kernel witness, Schur include/exclude conditioning and fixed-total-size contrast. Dependency-free Python and independent BigInt JavaScript agree on 24 complete reports / 4,050 exact leaves; 24 Python tests on 3.10-3.13 and actual-Chrome full-record/geometry checks. Duplicate-item controls separate zero co-occurrence from equal-marginal independence. Established bounded L-ensembles, not learned relevance, a scalable sampler or a downstream quality result. [Live subset inspector](https://midya8.github.io/dpplab/) · [Method and limits](https://github.com/midya8/dpplab/blob/main/METHOD.md).
+
 **[CTCLab](https://github.com/midya8/ctclab)**
 
 Offline CTC target marginalization with log-space forward/backward, full state/symbol posteriors and logit gradients, plus every exhaustive path and collapsed transcript. The editable independent JavaScript inspector shows why a greedy best path can lose to summed transcript mass: two uniform blank/A frames assign 0.25 to empty output and 0.75 to A. Twenty retained reports, 25 Python tests across 3.10-3.13, Decimal/state enumeration, 300 finite-difference checks and real-Chrome full-record/diagram audits. Established CTC on tiny synthetic logits, not a trained recognizer, speech/OCR benchmark or novel algorithm; numerical rank buckets and impossible-target conventions are explicit. [Live alignment inspector](https://midya8.github.io/ctclab/) · [Method and limits](https://github.com/midya8/ctclab/blob/main/METHOD.md).
