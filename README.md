@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[FactorLab](https://github.com/midya8/factorlab)**
+
+Exact rational finite factor elimination with every joined product, reduction/tie, fill edge and small-order census. A mixed sum/max control returns an upper bound of 11 versus true marginal-MAP mass 10, while joint MAP weight 6 projects to the wrong decision. A five-variable star gives the same partition at 62 versus 18 joined entries, width 4 versus 1. Independent Python/BigInt agree on 24 reports / 23,114 exact leaves; 24 Python tests on 3.10-3.13, dense partial-product oracles, full-record Chrome checks and installed reproduction. Supplied synthetic potentials, not learned quality, a scalable solver or a timing benchmark. [Live elimination inspector](https://midya8.github.io/factorlab/) · [Method and limits](https://github.com/midya8/factorlab/blob/main/METHOD.md).
+
 **[SubmodLab](https://github.com/midya8/submodlab)**
 
 Exact rational finite subset selection with every greedy marginal, optimum tie, monotonicity edge, local diminishing-return witness and proof-derived cardinality upper bound. The retained coverage counterexample gives greedy 5 versus optimum 6; a separate singleton top-k control gives 5 versus updated greedy 9. Invalid synergy/nonmonotone tables withhold theorem fields. Dependency-free Python and independent BigInt JavaScript agree on 24 complete reports / 16,426 exact leaves, with 24 Python tests on 3.10-3.13 and actual-Chrome checks of 360 subset rows/bars and 2,056 full records. Established theory on at most six items, not learned similarity, a scalable optimizer or downstream selection quality. [Live selection inspector](https://midya8.github.io/submodlab/) · [Method and limits](https://github.com/midya8/submodlab/blob/main/METHOD.md).
