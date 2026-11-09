@@ -332,14 +332,13 @@ Complete BM25 arithmetic, explicit chunk parents, both parent budgets and per-ra
 
 **[EvalForge](https://github.com/midya8/evalforge)**
 
-Local-first evaluation for LLM and agent outputs: versioned JSONL task
-suites, deterministic exact/contains/regex/JSON/similarity/numeric/length
-checks, a stdin/stdout adapter contract, retries, timeouts, bounded
-parallel execution, JSON run artifacts, baseline regression gates, and
-self-contained escaped HTML, JUnit XML, Markdown and SARIF run/comparison
-reports. Dependency-free Python, 68 unit tests, a fully offline demo that
-validates JUnit, Markdown and SARIF run/regression output, and CI across
-Python 3.10-3.13.
+[Editable paired inspector](https://midya8.github.io/evalforge/): all-task versus
+matched-task means, complete gate/raw-record witnesses, exhaustive paired sign
+flips and exact McNemar counts, independently recomputed in JavaScript. Original
+offline command-adapter/scorer/HTML/JUnit/Markdown/SARIF harness and all 68 tests
+retained. 92 Python tests, 24 full independent reports, actual Chrome and isolated
+installed-wheel checks. Supplied evidence, not a model-quality verdict; equal ids
+do not prove matching tasks or independent samples. Inference never changes the gate.
 
 **[AgentTrace](https://github.com/midya8/agenttrace)**
 
