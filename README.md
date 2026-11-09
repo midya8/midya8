@@ -314,11 +314,8 @@ or new-algorithm claim.
 
 **[GroundCheck](https://github.com/midya8/groundcheck)**
 
-Offline lexical grounding checks for answers against their sources: citation
-validation, per-sentence lexical support scoring against source documents,
-numeric consistency checks, terminal/JSON/Markdown reports, and CI gates
-that fail on lexically ungrounded output. Dependency-free Python, 43 unit tests, a
-fully offline demo, and CI across Python 3.10-3.13.
+Complete lexical/citation/numeric provenance with independent scalar-JavaScript recomputation, editable source policies and full input offsets. 66 Python tests retain 43 originals; 50 synthetic controls expose semantic false positives. Four Node/Chrome checks and isolated-wheel reproduction. Lexical support is not entailment; audit parity is bounded ASCII.
+[Live provenance inspector](https://midya8.github.io/groundcheck/)
 
 **[TokenForge](https://github.com/midya8/tokenforge)**
 
