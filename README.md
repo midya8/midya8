@@ -328,12 +328,7 @@ Python 3.10-3.13.
 
 **[RetrievalBench](https://github.com/midya8/retrievalbench)**
 
-Offline retrieval evaluation for RAG and search pipelines: an exact Okapi
-BM25 index over local JSONL corpora, token-window chunking with overlap and
-parent-document collapsing, graded qrels, per-query and macro-averaged
-recall@k/precision@k/MRR/nDCG@k, JSON and Markdown reports, and quality
-gates that fail CI on retrieval regressions. Dependency-free Python, 42
-unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+Complete BM25 arithmetic, explicit chunk parents, both parent budgets and per-rank metric gains with independent browser recomputation. 68 Python tests retain all 42 originals; 35 full reports, three Node/Chrome tests and installed-wheel reproduction. Synthetic arithmetic controls, not search-quality evidence. Complete rankings, discarded duplicates and ideal metric denominators stay visible. Default CLI budget/results preserved; no Lucene equivalence or broad quality claim. [Open inspector](https://midya8.github.io/retrievalbench/).
 
 **[EvalForge](https://github.com/midya8/evalforge)**
 
