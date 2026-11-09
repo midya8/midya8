@@ -281,11 +281,9 @@ Python 3.10-3.13.
 
 **[EmbedKit](https://github.com/midya8/embedkit)**
 
-Word embeddings trained from scratch with pure-Python SGNS: sigmoid-gradient
-SGD with unigram^0.75 negative sampling, one seeded RNG for reproducible
-vectors, and a topic-coherence evaluator (neighbor purity plus an
-intra/inter separation margin) wired into CI gates. Dependency-free Python,
-40 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+Independent editable SGNS objective and gradient inspector: every sampled event, 1,593 coordinate finite differences, real sequential replay versus a frozen simultaneous step, and visible clamp/order effects. Twelve original pairs capture 72 actual calls; seven labeled controls expose repetition, conflicting labels, saturation and overshoot. Full 300-sentence corpus and all 32 trained vectors retained; browser recomputes all 992 cosine neighbors. 53 Python tests and four Node/actual-Chrome tests compare 19 complete reports. Original 40 tests, trainer and gates remain unchanged.
+
+[Live inspector](https://midya8.github.io/embedkit/) · [Math & replay contract](https://github.com/midya8/embedkit/blob/main/STEP.md)
 
 **[PlanBench](https://github.com/midya8/planbench)**
 
