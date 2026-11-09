@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[SubmodLab](https://github.com/midya8/submodlab)**
+
+Exact rational finite subset selection with every greedy marginal, optimum tie, monotonicity edge, local diminishing-return witness and proof-derived cardinality upper bound. The retained coverage counterexample gives greedy 5 versus optimum 6; a separate singleton top-k control gives 5 versus updated greedy 9. Invalid synergy/nonmonotone tables withhold theorem fields. Dependency-free Python and independent BigInt JavaScript agree on 24 complete reports / 16,426 exact leaves, with 24 Python tests on 3.10-3.13 and actual-Chrome checks of 360 subset rows/bars and 2,056 full records. Established theory on at most six items, not learned similarity, a scalable optimizer or downstream selection quality. [Live selection inspector](https://midya8.github.io/submodlab/) · [Method and limits](https://github.com/midya8/submodlab/blob/main/METHOD.md).
+
 **[DPPLab](https://github.com/midya8/dpplab)**
 
 Exact-rational finite DPP subset laws with every determinant, inclusion-kernel witness, Schur include/exclude conditioning and fixed-total-size contrast. Dependency-free Python and independent BigInt JavaScript agree on 24 complete reports / 4,050 exact leaves; 24 Python tests on 3.10-3.13 and actual-Chrome full-record/geometry checks. Duplicate-item controls separate zero co-occurrence from equal-marginal independence. Established bounded L-ensembles, not learned relevance, a scalable sampler or a downstream quality result. [Live subset inspector](https://midya8.github.io/dpplab/) · [Method and limits](https://github.com/midya8/dpplab/blob/main/METHOD.md).
