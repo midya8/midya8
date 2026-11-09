@@ -348,9 +348,13 @@ and cost rollups, graph depth, repeated-step loop detection, baseline/candidate
 regression comparison, CI-friendly quality gates, a standalone escaped HTML
 timeline, deterministic JUnit XML output for CI test viewers, Markdown
 job summaries, and SARIF 2.1.0 output for code-scanning integrations.
-Dependency-free Python, 33 unit tests, a fully offline
+Dependency-free Python, 57 unit tests (original 33 retained), a fully offline
 fixed-trace baseline/candidate demo that validates JUnit, Markdown and SARIF
 output, and CI across Python 3.10-3.13.
+
+Full-record graph/timing inspector: every endpoint, interval segment, parent path/relation, normalized record and p95 term. Independent Python/JavaScript recomputation and current JSON export. 57 Python tests retain all original 33 tests; 24 synthetic controls, 11,110 interval checks and an isolated installed-wheel reproduction. Parent links are not causal dependencies; recorded coverage/overlap is not CPU, idle, waste or utilization. No model/API call.
+
+[Live graph/timing inspector](https://midya8.github.io/agenttrace/)
 
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
