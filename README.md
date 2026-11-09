@@ -231,7 +231,8 @@ Sparse mixture from scratch with an [interactive exact-route inspector](https://
 
 **[AlignLab](https://github.com/midya8/alignlab)**
 
-Preference-based alignment from scratch in pure Python: train a Bradley-Terry reward model on pairwise preferences (0.7800 holdout accuracy vs 0.4333 for a noise-trained control), then align a policy by gradient ascent on expected reward minus an exact KL penalty - true latent utility rises 2.04 to 4.62 while on the checked-in fixture the label-noise control buys almost nothing (a fixture comparison, not a general proof), the beta=0 collapse ablation is gated, and every expectation and gradient is closed-form and finite-difference verified. (15 tests)
+[Finite-policy optimum and KL-budget inspector](https://midya8.github.io/alignlab/): independent Python/browser Gibbs audits over all 1,005 recorded states separate optimizer error from synthetic utility. The original noise-control policy is essentially reward-optimal yet loses utility; stale prose is corrected without changing original training, data, tests or gates. Reference-weighted ties, zero support, underflow and unresolved budgets stay explicit. 47 Python + four substantive Node/Chrome tests, 35 full witnesses, high-precision controls and installed-wheel reproduction. Finite synthetic diagnostics, not causal, safety or generalization guarantees.
+
 
 **[LoRALab](https://github.com/midya8/loralab)**
 
