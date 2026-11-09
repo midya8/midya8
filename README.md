@@ -236,7 +236,7 @@ Sparse mixture from scratch with an [interactive exact-route inspector](https://
 
 **[LoRALab](https://github.com/midya8/loralab)**
 
-Low-rank adaptation from scratch in pure Python: freeze a trained model, learn only a rank-r delta W + B@A with hand-derived gradients, and measure all three sides of the trade-off - accuracy on the shifted distribution (0.44 recovered to 1.0000 at rank 2 on the checked-in fixture), trainable-parameter share (67.7% of full fine-tuning), and retained accuracy on the original distribution, with merge equivalence pinned to floating-point reassociation error and gates that fail in both directions. (14 tests)
+Same model, different factor-SGD step: independent Python/browser evaluators expose full factor-coordinate gradients, finite-step identities, matrix gauges and scalar compensation without claiming a new optimizer. All 124 original epoch boundaries, 31-scale sweeps and full exports remain visible. Width 2 reaches shifted accuracy 1.0000 with 67.7% of full fine-tuning's parameters, but retains less original accuracy (0.7556 versus 0.9556). 31 Python tests plus four Node/Chrome tests audit 54 full reports and 591,615 numbers; an isolated wheel reproduces the unchanged experiment. Synthetic finite classifier only, no LLM or causal claim. [Live inspector](https://midya8.github.io/loralab/).
 
 **[SpecLab](https://github.com/midya8/speclab)**
 
