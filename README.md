@@ -371,12 +371,16 @@ against safe, risky and runtime-generated token fixtures, and CI across Python
 
 **[ScratchGPT](https://github.com/midya8/scratchgpt)**
 
-A GPT built and trained from scratch in pure NumPy: a ~400-line reverse-mode
-autograd engine with hand-written backward rules, a pre-LN causal transformer,
-Adam training, resumable checkpoints, and a temperature/top-k sampling CLI. The
-shipped TinyShakespeare config trains a 419,328-parameter 2-layer/4-head model
-to 1.83 nats/char validation loss on CPU; 11 unit tests check gradients
-against finite differences and prove no causal attention leak. CI on Python 3.12.
+NumPy GPT/autograd with validated exact continuation: both PCG64 streams, Adam
+buffers/clock, data identity, options and runtime metadata. All 13 restart
+boundaries match complete state in the same environment; RNG-reset and missing
+moment controls expose failures. Independent scalar Adam and transformer
+inference drive an [offline replay](https://midya8.github.io/scratchgpt/) with
+all coordinates, editable contexts and JSON exports. 70 Python tests preserve
+11 originals; three Node/Chrome tests and installed-wheel reproduction. The
+historical 419,328-parameter Shakespeare checkpoint is unchanged. The replay is
+a separate synthetic model; the browser does not train. No cross-machine
+bitwise or new performance claim.
 
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
