@@ -266,12 +266,9 @@ across Python 3.10-3.13.
 
 **[KVLens](https://github.com/midya8/kvlens)**
 
-KV-cached incremental decoding from scratch in pure Python: batched prefill plus
-one incremental step per token, verified bitwise-identical to full recompute
-(max logit difference exactly 0.0 across configs), with measured matmul FLOP
-savings (90.8% at 32 generated tokens on the default fixture) and CI gates.
-Dependency-free Python, 28 unit tests, a fully offline demo, and CI across
-Python 3.10-3.13.
+Independent full-tensor attention/cache inspector with final-query-only no-cache and optimized-prefill controls, atomic occupied-prefill rejection and independent cache forks. Named default eight-prediction savings: 58.68% against the stronger baseline versus 73.08% for the intact historical pair. Complete Q/K/V, score/value/output/logit contributions, before/after state and full JSON/model exports. 55 Python tests retain all 28 originals; three Node/actual-Chrome tests compare 32 complete reports, 97 predictions and 66,940 numeric entries, with every displayed cell and weight table checked. Counted arithmetic and ideal packed K/V payload, not latency or actual memory.
+
+[Live inspector](https://midya8.github.io/kvlens/) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/kvlens.md)
 
 **[AttnLens](https://github.com/midya8/attnlens)**
 
