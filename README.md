@@ -299,11 +299,18 @@ Stable staged sampling, complete finite continuation trees and full beam-pruning
 
 **[VectorLite](https://github.com/midya8/vectorlite)**
 
-Exact and approximate kNN vector search from scratch: brute-force exact kNN
-(cosine and L2), a seeded random-hyperplane LSH index for approximate cosine
-search, and recall@k of the approximate index measured against the exact
-baseline and enforced with a CI gate. Dependency-free Python, 31 unit tests,
-a fully offline demo, and CI across Python 3.10-3.13.
+Finite random-hyperplane geometry and retrieval inspector with every projection,
+signature, admitted/missed exact neighbor and threshold. Stable cosine arithmetic,
+full-precision gates and explicit self/excluded/external query protocols preserve
+the original corpus and 1.0 self-inclusive recall@3. A same-two-vector exclusion
+control changes recall from 1 to 0. Independent JS replays actual planes;
+50 Python tests retain all 31 originals, with Decimal/rational references,
+35 audits, 20,784 numerical checks and 5,856 actual-Chrome projection rows.
+Linear signature scan, not a sublinear index; marginal iid-plane expectations
+are not fixed-plane guarantees. No speed, embedding-quality, confidence-interval
+or new-algorithm claim.
+
+[Live inspector](https://midya8.github.io/vectorlite/)
 
 **[GroundCheck](https://github.com/midya8/groundcheck)**
 
