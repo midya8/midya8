@@ -6,6 +6,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[CTCLab](https://github.com/midya8/ctclab)**
+
+Offline CTC target marginalization with log-space forward/backward, full state/symbol posteriors and logit gradients, plus every exhaustive path and collapsed transcript. The editable independent JavaScript inspector shows why a greedy best path can lose to summed transcript mass: two uniform blank/A frames assign 0.25 to empty output and 0.75 to A. Twenty retained reports, 25 Python tests across 3.10-3.13, Decimal/state enumeration, 300 finite-difference checks and real-Chrome full-record/diagram audits. Established CTC on tiny synthetic logits, not a trained recognizer, speech/OCR benchmark or novel algorithm; numerical rank buckets and impossible-target conventions are explicit. [Live alignment inspector](https://midya8.github.io/ctclab/) · [Method and limits](https://github.com/midya8/ctclab/blob/main/METHOD.md).
+
 **[PPOlab](https://github.com/midya8/ppolab)**
 
 From-scratch NumPy PPO with a corrected internal-timeout collector, separate bootstrap/trace masks, full GAE credit matrices and sign-dependent clip-gradient audits. Independent scalar JavaScript evaluates all 4,675 checkpoint parameters and real CartPole physics. Fifty Python tests retain all 18 original tests; four Node/actual-Chrome tests compare 26 full reports/12,408 numbers and all 14,871 original one-step observations. New free-running paths can diverge: the reference run differs on 377 actions despite matching all 30 return lengths. Original checkpoint/results retained; no training-improvement, speed, trajectory-equivalence, KL-bound or universal-solve claim. [Live boundary and policy inspector](https://midya8.github.io/ppolab/) · [Equations, bug and limits](https://github.com/midya8/ppolab/blob/main/BOUNDARIES.md).
