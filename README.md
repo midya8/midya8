@@ -8,6 +8,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[MatchLab](https://github.com/midya8/matchlab)**
+
+Exact finite two-sided matching keeps the full stable family, both proposer traces and every strict blocking-pair test. An original profile costs 3 without stability and 13 at its unique stable cost minimum, which is neither proposer-optimal extreme. Another original control gives an incomparable diamond lattice. Inspect every attainable stable partner, lattice operation/cover and cost/blocker-cap frontier. Supplied costs are separate from ordinal preferences.
+
+20 Python tests, 76 full cross-engine reports, 1,372 primitive forgery rejections, 152 independent input-built HiGHS integer solves and clean installed CLI reproduction pass. Actual deployed Chrome checks 48 responsive views, 1,149 selected assignments, 453 proposal states, 243 lattice selections, 450 cap selections and 16 natively replayed downloads. Feature/PR, main and Pages checks passed; all 44 public files, five deployed assets and 31 captures match checked source/local pixels. Classical attributed theory, original bounded teaching profiles, no fairness, strategic-honesty-for-both-sides, real-allocation or held-out benchmark claim.
+
+[Live inspector](https://midya8.github.io/matchlab/) · [Method and limits](https://github.com/midya8/matchlab/blob/main/METHOD.md)
+
 **[OrderLab](https://github.com/midya8/orderlab)**
 
 Exact finite weighted Kemeny aggregation with all tied optimum orders and independent ballot-inversion replay. A strict adjacent-local endpoint costs 10, the unique global optimum costs 8, and the independent-pair lower bound is 7. Inspect every majority cycle, complete-order ballot/pair/swap ledger and subset-DP transition. All 720 optima survive the six-candidate all-tie control.
