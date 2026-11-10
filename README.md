@@ -8,6 +8,15 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[OrderLab](https://github.com/midya8/orderlab)**
+
+Exact finite weighted Kemeny aggregation with all tied optimum orders and independent ballot-inversion replay. A strict adjacent-local endpoint costs 10, the unique global optimum costs 8, and the independent-pair lower bound is 7. Inspect every majority cycle, complete-order ballot/pair/swap ledger and subset-DP transition. All 720 optima survive the six-candidate all-tie control.
+
+18 Python tests, 76 complete Python/JS reports, 1,100 rejected primitive mutations, 65 independent HiGHS integer solves and clean installed CLI reproduction pass. Actual deployed Chrome checks 48 responsive reports, 5,091 selected orders, 846 subsets and sixteen native-replayed downloads. Feature/PR, main and Pages checks passed; all 46 public files, five deployed assets and 35 captures match checked source/local pixels. Classical attributed theory, original bounded profiles, no learned relevance, fairness, election recommendation or held-out benchmark.
+
+[Live inspector](https://midya8.github.io/orderlab/) · [Method and limits](https://github.com/midya8/orderlab/blob/main/METHOD.md)
+
+
 **[CredalLab](https://github.com/midya8/credallab)**
 
 Exact finite probability compatibility and one-shot decisions with independently replayed primal/dual evidence. Version 0.2 separates pairwise defenses from one shared best belief: the menu `(3,0),(0,3),(1,1)` leaves the third action maximal and pure maximin, yet a fixed half/half rival mixture excludes it everywhere by exactly `1/2`. Inspect E-admissible, strict maximal, interval-undominated, pure maximin/maximax sets, common-belief witnesses and randomized exclusion proofs. No pointwise prefilter; boundary ties stay.
