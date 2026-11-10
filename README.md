@@ -1,5 +1,7 @@
 ## Hi, I'm Midya
 
+[Browse my searchable project index](https://midya8.github.io/Midya-portfolio/) | [Source and build contract](https://github.com/midya8/Midya-portfolio/blob/main/CATALOG.md)
+
 I'm a Toronto-based technologist with 12+ years across technology, financial
 services and telecommunications. Lately I'm building with large language models,
 agentic systems and workflow automation.
