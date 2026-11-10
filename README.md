@@ -8,6 +8,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[ChannelLab](https://github.com/midya8/channellab)**
+
+Exact finite binary experiment comparison with a constructive state-independent garbling or a strict two-action decision witness. Two supplied experiments both classify at 3/4 yet are incomparable: separate exact tasks give opposite advantages of 1/12. Inspect every posterior, complete call-function knot, stochastic kernel, reconstructed state law and full deterministic task policy. A separate checker and lossless BigInt engine agree on 710 complete reports; 1,420 executed SciPy HiGHS feasibility solves corroborate both directions.
+
+Two supplied states, one to three signals/actions and a full-support prior. Classical Blackwell theory, 13 developed teaching controls, not learned sensor quality, a held-out benchmark, privacy, finance, real-world safety or a new theorem. Fifteen Python tests, four Node/actual-Chrome tests and isolated installed-wheel reproduction pass. All five deployed assets are exact; all 27 complete deployed captures match inspected local pixels. Feature, PR, merged-main and Pages checks are green.
+
+[Live inspector](https://midya8.github.io/channellab/) · [Method and limits](https://github.com/midya8/channellab/blob/main/METHOD.md)
+
 **[RiskLab](https://github.com/midya8/risklab)**
 
 Exact finite scenario-tree decisions under static and nested CVaR. Inspect every full deterministic policy, terminal probability, split boundary atom, threshold/envelope certificate and continuation regret. A disclosed development control chooses static policy p3 at 7/3 versus nested p2 at 22/9; a separate control shows that a root-optimal nested policy can still have a worse reached continuation. Separate path/vertex verification, a lossless BigInt inspector and 9,896 executed HiGHS LP comparisons accompany 821 complete cross-engine reports / 1,121 policies, 16 Python tests, four Node tests and isolated wheel reproduction.
