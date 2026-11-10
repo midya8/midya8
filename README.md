@@ -8,6 +8,22 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[FireLab](https://github.com/midya8/firelab)**
+
+
+
+A balanced firing multiset can still have no legal first step. This exact finite Petri-net inspector separates token balance, supplied-count execution and arbitrary goal reachability. The catalyst control reaches its goal only by borrowing a token, acting and returning it. Inspect every marking, guard, shortest tie and partial-multiset prefix/suffix.
+
+
+
+18 native tests include 4,704 exhaustive cases and independent full-report replay. Actual PM4Py 2.7.23 checks 164 input-built nets. Python/JavaScript parity, isolated installed reproduction and 56 deployed Chrome views with 14 independently replayed downloads pass. Feature/PR, main and Pages are green; all 32 source files and five live assets match. Established theory and original bounded controls, not a new algorithm or a real-agent guarantee.
+
+
+
+[Live inspector](https://midya8.github.io/firelab/) · [Source](https://github.com/midya8/firelab) · [Full evidence and pixel caveat](https://github.com/midya8/Midya-portfolio/blob/main/projects/firelab.md)
+
+
+
 **[ParetoLab](https://github.com/midya8/paretolab)**
 
 Exact finite biobjective DAG planning retains all paths and nondominated tradeoffs. The developed choices `(0,12)`, `(7,7)`, `(12,0)` leave the middle path Pareto but unsupported: it requires both`t >= 7/12`and`t <= 5/12`. A hard second-cost ceiling7 selects it. A separately labeled whole-path lottery yields expected `(5,7)` with7/12 probability of exceeding that realized ceiling. No expected-feasibility safety claim.
