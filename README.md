@@ -8,6 +8,14 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[RiskLab](https://github.com/midya8/risklab)**
+
+Exact finite scenario-tree decisions under static and nested CVaR. Inspect every full deterministic policy, terminal probability, split boundary atom, threshold/envelope certificate and continuation regret. A disclosed development control chooses static policy p3 at 7/3 versus nested p2 at 22/9; a separate control shows that a root-optimal nested policy can still have a worse reached continuation. Separate path/vertex verification, a lossless BigInt inspector and 9,896 executed HiGHS LP comparisons accompany 821 complete cross-engine reports / 1,121 policies, 16 Python tests, four Node tests and isolated wheel reproduction.
+
+Supplied teaching trees with at most 15 nodes, eight leaves and four decisions. Classical risk-sensitive planning, not a learned agent, held-out benchmark, financial advice, new CVaR algorithm or real-world safety guarantee. Exact arithmetic does not validate the supplied model.
+
+[Live inspector](https://midya8.github.io/risklab/) · [Method and limits](https://github.com/midya8/risklab/blob/main/METHOD.md)
+
 **[CutLab](https://github.com/midya8/cutlab)**
 
 Exact binary submodular energy graph cuts with signed rational offsets, every pair/terminal reduction, shortest augmenting paths including reverse routing, every-cut residual dual slack and the full SCC/closure optimum family. A strict single-flip control stops at energy 2 while the certified joint optimum is 0; a unary-only control has gap 2. Independent Python/BigInt agree on 24 reports / 24,624 exact leaves. 21 Python tests on 3.10-3.13, complete rendered records, SVG checks and installed reproduction. Supplied synthetic costs, at most six variables; classical methods, no learned model, image benchmark, speed or new-algorithm claim.
