@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[ParetoLab](https://github.com/midya8/paretolab)**
+
+Exact finite biobjective DAG planning retains all paths and nondominated tradeoffs. The developed choices `(0,12)`, `(7,7)`, `(12,0)` leave the middle path Pareto but unsupported: it requires both`t >= 7/12`and`t <= 5/12`. A hard second-cost ceiling7 selects it. A separately labeled whole-path lottery yields expected `(5,7)` with7/12 probability of exceeding that realized ceiling. No expected-feasibility safety claim.
+
+20 Python tests include729 exhaustive ordered three-path profiles.52 full native/browser reports,579 rejected primitive forgeries per engine,556 input-built HiGHS graph-MILP/probability-LP solves and clean installed reproduction pass. Actual Chrome checks48 responsive views,220 path selections and24 native downloads independently replayed by Python. Exact weight cells, endpoint dominated ties, epsilon thresholds and Pareto-label pruning remain inspectable. Classical attributed theory, developed synthetic controls, no learned preference, scale or new-algorithm claim.
+
+Feature/PR, merged-main and Pages checks passed. All31 public files and five deployed assets match checked source. Deployed Chrome passes;39/40 unmasked captures are pixel-identical, with only18 border-antialias pixels differing by at most2/255 in the remaining hero. Actual desktop/phone layouts inspected.
+
+[Live inspector](https://midya8.github.io/paretolab/) · [Source](https://github.com/midya8/paretolab) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/paretolab.md)
+
 **[AuctionLab](https://github.com/midya8/auctionlab)**
 
 Exact finite multiagent allocation makes VCG prices, report-independent bundle menus and seller-coalition deficits inspectable. A developed classical-pattern control has welfare 12, revenue 8 and deficit 2:individual truthfulness does not imply cooperative-core stability. Every efficient tie and supplied unilateral-report optimum is retained.
