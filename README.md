@@ -8,6 +8,10 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[CredalLab](https://github.com/midya8/credallab)**
+
+Exact finite probability compatibility, sharp event and positive-mass conditional bounds, and independently replayed primal/dual evidence. Individually valid probabilities can have no compatible joint distribution. Python/BigInt agree on 120 developed reports; 690 rebuilt HiGHS LPs, 505 certificate mutations, 16 Python tests, actual-Chrome table/download checks and isolated installed-wheel reproduction support the bounded inspector. Classical mathematics, no learned beliefs, null-event posterior convention or scalable-inference claim. Feature/PR, merged-main and Pages checks passed; five deployed assets and 35 captures match inspected source/local pixels. [Live inspector](https://midya8.github.io/credallab/).
+
 **[ChannelLab](https://github.com/midya8/channellab)**
 
 Exact finite binary experiment comparison with a constructive state-independent garbling or a strict two-action decision witness. Version 0.2 adds an exact prior atlas over [0,1] for one fixed payoff table: every affine deterministic policy, closed optimality range, endpoint and interval ties, ranking crossings, no-signal value and information-value line. Separate Python verification and lossless BigInt agree on 710 complete atlases / 8,486 policies / 3,401 knots / 2,691 intervals. Independent optional HiGHS diagnostics execute 16,972 policy-range LPs with zero tested endpoint discrepancy; the original 1,420 information-order LP checks remain.
