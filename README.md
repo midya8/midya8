@@ -10,7 +10,11 @@ agentic systems and workflow automation.
 
 **[CredalLab](https://github.com/midya8/credallab)**
 
-Exact finite probability compatibility, sharp event and positive-mass conditional bounds, and independently replayed primal/dual evidence. Individually valid probabilities can have no compatible joint distribution. Python/BigInt agree on 120 developed reports; 690 rebuilt HiGHS LPs, 505 certificate mutations, 16 Python tests, actual-Chrome table/download checks and isolated installed-wheel reproduction support the bounded inspector. Classical mathematics, no learned beliefs, null-event posterior convention or scalable-inference claim. Feature/PR, merged-main and Pages checks passed; five deployed assets and 35 captures match inspected source/local pixels. [Live inspector](https://midya8.github.io/credallab/).
+Exact finite probability compatibility and one-shot decisions with independently replayed primal/dual evidence. Version 0.2 separates pairwise defenses from one shared best belief: the menu `(3,0),(0,3),(1,1)` leaves the third action maximal and pure maximin, yet a fixed half/half rival mixture excludes it everywhere by exactly `1/2`. Inspect E-admissible, strict maximal, interval-undominated, pure maximin/maximax sets, common-belief witnesses and randomized exclusion proofs. No pointwise prefilter; boundary ties stay.
+
+31 Python and six combined Node/Chrome tests pass. Decision evidence adds 96 complete Python/BigInt reports, 824 primitive forgeries, 1,420 independent input-built HiGHS LPs and both isolated installed CLI entry points. Original 120-report/505-forgery/690-LP probability checks remain. Actual Chrome checks every developed action and certificate row, including 855 decision certificate selections and native-replayed downloads. Feature/PR, merged-main and Pages checks passed; all ten deployed assets and 79 combined captures match checked source/local pixels. Bounded original teaching controls, classical attributed theory, no learned preferences, practical recommendation or held-out benchmark.
+
+[Decision inspector](https://midya8.github.io/credallab/decisions.html) · [Probability inspector](https://midya8.github.io/credallab/) · [Exact conventions and limits](https://github.com/midya8/credallab/blob/main/DECISIONS.md)
 
 **[ChannelLab](https://github.com/midya8/channellab)**
 
