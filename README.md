@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[AuctionLab](https://github.com/midya8/auctionlab)**
+
+Exact finite multiagent allocation makes VCG prices, report-independent bundle menus and seller-coalition deficits inspectable. A developed classical-pattern control has welfare 12, revenue 8 and deficit 2:individual truthfulness does not imply cooperative-core stability. Every efficient tie and supplied unilateral-report optimum is retained.
+
+24 Python tests,52 cross-language reports,1,204 tamper rejections per engine,1,024 independent HiGHS integer solves and clean-wheel reproduction pass. A bounded 196-profile type exhaustion checks 5,488 reports and 12,348 outcomes. Actual Chrome checks 48 responsive views and 32 native input/certificate downloads. Python replay is independently implemented; browser census replay shares evidence construction. Developed synthetic controls, not held out; no actual auction, payment, collusion audit or new-mechanism claim.
+
+Feature/PR, merged-main and Pages checks passed. All 47 public files and five deployed assets match checked source; all 30 deployed captures match inspected local pixels.
+
+[Live inspector](https://midya8.github.io/auctionlab/) · [Source](https://github.com/midya8/auctionlab) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/auctionlab.md)
+
 **[MatchLab](https://github.com/midya8/matchlab)**
 
 Exact finite two-sided matching keeps the full stable family, both proposer traces and every strict blocking-pair test. An original profile costs 3 without stability and 13 at its unique stable cost minimum, which is neither proposer-optimal extreme. Another original control gives an incomparable diamond lattice. Inspect every attainable stable partner, lattice operation/cover and cost/blocker-cap frontier. Supplied costs are separate from ordinal preferences.
