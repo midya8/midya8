@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[VectorLite0.3: actual block-bucket retrieval](https://github.com/midya8/vectorlite)**
+
+VectorLite now has actual reusable block buckets. An optional backend partitions fixed binary signatures into r+1 disjoint blocks, unions exact-key postings and verifies full Hamming distance before unchanged cosine/id rescoring. The original signature scan remains the default and reference.
+
+59 Python tests retain all50 prior tests;8 Node/actual-Chrome tests retain all3 prior tests. Independent native and BigInt small-cube oracles each cover5,376 query/radius/mode comparisons. Another480 random excluded-query checks,360 random cosine rankings and105 original-spec backend rankings agree with scans. All34 full reports,1,908 selected Chrome rows,24 responsive views and2 trusted JSON exports are checked. An installed8-module wheel reproduces all35 old audits,34 new reports and both new CLI entrypoints.
+
+A constructed512-row24-bit/radius2 control needs3 lookups,11 posting visits and9 full Hamming checks versus512 scan checks. A dense duplicate control would visit1,536 postings; auto instead scans after3 lookups. These are structural counts, not elapsed time, measured RAM or total operations. The fallback rule is a heuristic, not a general sublinear guarantee. Exact signature filtering is still approximate cosine retrieval, not semantic relevance. The r+1 exact-block method is a credited specialization of established multi-index hashing, not a new algorithm.
+
+[Live block buckets](https://midya8.github.io/vectorlite/buckets.html) · [Algorithm and scope](https://github.com/midya8/vectorlite/blob/main/BUCKETS.md)
+
 **[EmbedKit0.3: exact finite retry sampler audit](https://github.com/midya8/embedkit)**
 
 EmbedKit now audits the noise behind its negatives. The unchanged sampler excludes positive context and earlier negatives, retries20 times, then returns the first eligible sorted word. Native Fraction and independent browser BigInt count exact53-bit proposal intervals and propagate every reachable bounded subset state, with finite retry versus unlimited conditional rejection on the same proposals.
@@ -448,21 +458,6 @@ Stable staged sampling, complete finite continuation trees and full beam-pruning
 
 [Live inspector](https://midya8.github.io/decodelab/)
 
-
-**[VectorLite](https://github.com/midya8/vectorlite)**
-
-Finite random-hyperplane geometry and retrieval inspector with every projection,
-signature, admitted/missed exact neighbor and threshold. Stable cosine arithmetic,
-full-precision gates and explicit self/excluded/external query protocols preserve
-the original corpus and 1.0 self-inclusive recall@3. A same-two-vector exclusion
-control changes recall from 1 to 0. Independent JS replays actual planes;
-50 Python tests retain all 31 originals, with Decimal/rational references,
-35 audits, 20,784 numerical checks and 5,856 actual-Chrome projection rows.
-Linear signature scan, not a sublinear index; marginal iid-plane expectations
-are not fixed-plane guarantees. No speed, embedding-quality, confidence-interval
-or new-algorithm claim.
-
-[Live inspector](https://midya8.github.io/vectorlite/)
 
 **[GroundCheck](https://github.com/midya8/groundcheck)**
 
