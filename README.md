@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[GraphLab: joint deletion audit](https://github.com/midya8/graphlab)**
+
+GraphLab now enumerates every original-edge deletion set up to a declared budget, recomputes all degree normalization and exposes all target logits, class changes and signed nonadditivity residuals. A four-node control keeps class 1 under every single deletion, yet a pair flips to class 0 while summing those single effects still predicts class 1. Inspect the complete census, including a stronger minimum-margin pair, instead of a hidden top-k attack list.
+
+51 Python tests retain all 42 original tests. Independent dense/bitmask checks cover 180 seeded graph/model cases; 70-digit Decimal checks all 16 counterexample sets. Python/JavaScript agree on 46 complete reports and 559 subsets. Actual NumPy checks all 559 logit vectors, max difference 8.88e-16. Five Node/Chrome tests cover 24 responsive views, 568 subset selections and six natively replayed trusted downloads. An isolated wheel checks seven module origins and all nine commands via both entrypoints. Original trained GCN/MLP/scrambled results, centroid/final controls and both figures reproduce unchanged.
+
+Source PR1 passed all 16 latest feature/PR jobs and merged with prior history intact. All 44 merged files and five deployed assets match the tested source. Merged-main CI and Pages passed after enabling the repository's Pages source. Full deployed Chrome workflow passes. Twenty of 24 unmasked captures are byte-identical in pixels; the other four differ only on one 150-pixel table-border line, with identical layout/content. The four differences were inspected, not masked. Actual desktop and phone graphs, values and complete tables were inspected. This is a bounded binary64 fixed-model sensitivity census, not a causal effect, learned robustness improvement, new algorithm, formal real-arithmetic certificate or scale claim. Original edges only, with self loops retained. Chosen two-class margins stay separate from all-class predictions. Established GCN and formal graph-verification literature are credited.
+
+[Live inspector](https://midya8.github.io/graphlab/) · [Method and scope](https://github.com/midya8/graphlab/blob/main/JOINT.md)
+
 **[RectLab0.2](https://github.com/midya8/rectlab)**
 
 RectLab0.2 makes every optimal factor set accessible by exact lexicographic index, not only the first. Inspect each factor's complete inclusion count and mandatory/optional/never status in unrestricted covers, maximal-only covers and disjoint partitions. In the default, R12 appears in 40/68 unrestricted optima versus 9/13 maximal-only optima; R0 appears in 1/68 and is ineligible under maximal-only restriction. A unique-cover control instead has three mandatory factors.
@@ -307,10 +317,6 @@ Log-domain entropic optimal transport with full mass plans, explicit nonconverge
 **[FlowLab](https://github.com/midya8/flowlab)**
 
 Affine-coupling flow from scratch: exact fitted-model density, inverse sampling, analytic input scores and bounded conditional CDF/quantile slices. Aligned window audits reuse one scored grid and expose renormalization effects: narrowing[-4,4] to[-1,1] removes24.35%-31.94% of interpolated mass inside the finite outer window. An analytic narrow-peak counterexample shows two agreeing grids can both be wrong. 45 tests, strict artifacts, offline CLI/SVGs and actual call budgets. No whole-line tail, exact-conditional, calibrated-coverage, OOD or causal claim.
-
-**[GraphLab](https://github.com/midya8/graphlab)**
-
-Two-layer GCN from scratch with exact input-margin gradients and budgeted single-edge deletion sensitivity. Input locality differs from graph normalization: node 3 has zero feature gradient for node 0, yet deleting edge 2-3 changes its margin by +0.016852 after degree renormalization. Full signed contributions, every edge effect, preflight call budgets and zero-gradient/large-change counterexample. Original transductive development results remain: selected GCN0.96875, MLP0.34375, scrambled GCN0.515625; final/centroid controls visible. Synthetic graph carries class signal; no causal, probability-attribution, unseen-graph or general ranking claim. 42 tests, strict artifacts and offline CLI/SVGs.
 
 **[DiffuseLab](https://github.com/midya8/diffuselab)**
 
