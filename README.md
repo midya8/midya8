@@ -94,7 +94,7 @@ Most repos here follow the same habit: implement the thing from scratch, hand-de
 | [ErgodLab](https://github.com/midya8/ergodlab) | Stationary-distribution sensitivity for Markov decision processes |
 | [VariLab](https://github.com/midya8/varilab) | Mean-field variational inference from scratch |
 | [RobustLab](https://github.com/midya8/robustlab) | Exact norm-ball margins for linear adversarial robustness |
-| [TransportLab](https://github.com/midya8/transportlab) | Entropic optimal transport in log domain, convergence audited |
+| [TransportLab](https://github.com/midya8/transportlab) | [Normalized-marginal tangent workbench](https://midya8.github.io/transportlab/): every fixed update, actual/requested mass tangents and complete JSON; finite computation, not an optimum certificate |
 | [RectLab](https://github.com/midya8/rectlab) | Every optimal factor set in rectangle covers, indexed exactly |
 | [CompileLab](https://github.com/midya8/compilelab) | Boolean knowledge compilation into inspectable decision graphs |
 | [FireLab](https://github.com/midya8/firelab) | Petri-net inspector separating token balance from executability |
