@@ -474,15 +474,13 @@ Optional occurrence-indexed BPE training with exact original merges and saved ar
 
 Complete BM25 arithmetic, explicit chunk parents, both parent budgets and per-rank metric gains with independent browser recomputation. 68 Python tests retain all 42 originals; 35 full reports, three Node/Chrome tests and installed-wheel reproduction. Synthetic arithmetic controls, not search-quality evidence. Complete rankings, discarded duplicates and ideal metric denominators stay visible. Default CLI budget/results preserved; no Lucene equivalence or broad quality claim. [Open inspector](https://midya8.github.io/retrievalbench/).
 
-**[EvalForge](https://github.com/midya8/evalforge)**
+**[EvalForge 0.2: one family, shared cluster signs](https://github.com/midya8/evalforge)**
 
-[Editable paired inspector](https://midya8.github.io/evalforge/): all-task versus
-matched-task means, complete gate/raw-record witnesses, exhaustive paired sign
-flips and exact McNemar counts, independently recomputed in JavaScript. Original
-offline command-adapter/scorer/HTML/JUnit/Markdown/SARIF harness and all 68 tests
-retained. 92 Python tests, 24 full independent reports, actual Chrome and isolated
-installed-wheel checks. Supplied evidence, not a model-quality verdict; equal ids
-do not prove matching tasks or independent samples. Inference never changes the gate.
+A separate exact clustered sign-flip audit for common-task model comparisons. Each supplied cluster gets one sign shared across every candidate. The default candidate has raw absolute-sum tail 1/4 but family-maximum tail 1/2. Repeated-row controls show how the declared flip unit changes the orbit without changing observed task-weighted sums. The original regression gate, paired inspector and McNemar calculation stay unchanged.
+
+102 Python tests retain all 92 prior tests; seven Node/actual-Chrome tests retain all three prior tests. Independent original-task relabeling checks 150 seeded matrices and all 729 small two-column controls. Python block aggregation/bit masks and independent browser Cartesian signs/original-task sums agree on 24 complete reports, 118 task rows, 73 cluster rows, 506 full assignments and 10,474 candidate-by-cluster contributions. Chrome checks all displayed rows, bar geometry, stale/invalid state, both exports and 320/390/1280px containment. Isolated installed API, module and console runs reproduce every report, plus all original wheel/adapter/export checks.
+
+Supplied cluster labels do not establish joint symmetry or randomization. Marginal symmetry is insufficient for a joint maximum; no universal strong-FWER, model-superiority or automatic-gate claim. The original paired/adapter/scorer harness stays intact. [Live family inspector](https://midya8.github.io/evalforge/family.html) · [Contract and sources](https://github.com/midya8/evalforge/blob/main/FAMILY.md)
 
 **[AgentTrace](https://github.com/midya8/agenttrace)**
 
