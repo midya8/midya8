@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[QuantLab0.3: activation integer dot products](https://github.com/midya8/quantlab)**
+
+QuantLab now traces activation × weight integer dot products, not only packed weights. A fixed user-declared activation range produces signed 8-bit codes; every integer product and partial accumulator stays visible. Exact rational witnesses separate weight error from activation error. The constructed default has zero weight error, yet activation rounding changes a strict row-1 winner into a zero-code tie won by row 0.
+
+47 Python tests retain all 39 earlier tests. Independent floor/remainder rounding checks 240 seeded reports and all 519 signed half-unit controls. Python Fraction and independent browser BigInt dyadics agree on 72 complete reports with 6,848 products and all exact error strings. Actual NumPy2.2.6 int32 matmul and cumsum check every accumulator and prefix. Seven Node/actual-Chrome tests cover 168 row selections, 20 responsive views, two trusted downloads replayed natively and stale-result rejection. A fresh isolated eight-module package reproduces original training, all 52 old reports and all 72 new reports, with both new CLI entrypoints. Original QLB1 bytes and 59/60 weight-only synthetic results remain unchanged.
+
+Source PR3 passed all 16 latest feature/PR jobs and merged with previous history intact. All 53 merged files and ten deployed assets match the tested public source. Merged-main eight-job CI and Pages passed. The complete deployed browser workflow passes; all 20 unmasked local/deployed captures are pixel-identical. Desktop and phone controls, values and tables were inspected. Integer products and prefixes are exact under the checked shape bound of 2,064,512. Final output rescaling uses binary64, not integer-only end-to-end inference. Fixed activation range is supplied, not calibrated. Exact fractions describe represented-real maps, not runtime summation or unseen accuracy. Error decomposition is order-dependent arithmetic, not causal attribution. No hardware speed, RAM, learned improvement, new algorithm or ONNX/TFLite compatibility claim. Established quantization literature is credited.
+
+[Live audit](https://midya8.github.io/quantlab/integer.html) · [Method and scope](https://github.com/midya8/quantlab/blob/main/INTEGER.md)
+
 **[GraphLab: joint deletion audit](https://github.com/midya8/graphlab)**
 
 GraphLab now enumerates every original-edge deletion set up to a declared budget, recomputes all degree normalization and exposes all target logits, class changes and signed nonadditivity residuals. A four-node control keeps class 1 under every single deletion, yet a pair flips to class 0 while summing those single effects still predicts class 1. Inspect the complete census, including a stronger minimum-margin pair, instead of a hidden top-k attack list.
@@ -392,11 +402,6 @@ Speculative decoding from scratch: greedy verification, exact stochastic residua
 **[StructGate](https://github.com/midya8/structgate)** · [Live inspector](https://midya8.github.io/structgate/)
 
 Full-model constrained decoding with support-aware KL and exact finite-language conditioning. The independent browser evaluates every original n-gram count, all 120 historical paths/3,729 emitted characters and all 46 character probabilities at every step. Fifty-four Python tests retain all 32 originals; three Node/actual-Chrome tests compare 1,251 full prefix reports, 289 source contexts and 741,236 numeric entries. Fraction/BigInt controls expose local-versus-global distortion, stranded probability and undefined zero events. Original 3/40, 40/40, 40/40 fixture and gates retained. Prefix legality is not finite-budget completion; the historical fixed record is not JSON Schema. No LLM-quality, causal mask-cost or arbitrary-JSON conditioning claim. [Equations and limits](https://github.com/midya8/structgate/blob/main/CONDITIONING.md).
-
-**[QuantLab](https://github.com/midya8/quantlab)** · [Live inspector](https://midya8.github.io/quantlab/)
-
-Real QLB1 int8 files, IEEE32/64 scales and an independent editable browser inspector: every coefficient, signed logit-error contribution and exact fixed-input margin. Original 60-example fixture and magnitude controls preserved; 39 Python tests and four Node/actual-Chrome tests compare 52 full reports. Actual row files are 232/244 B, not the original 204 B analytic payload. No integer-kernel or speed claim.
-
 
 **[RAGLine](https://github.com/midya8/ragline)**
 
