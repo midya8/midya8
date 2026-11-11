@@ -466,12 +466,9 @@ Complete lexical/citation/numeric provenance with independent scalar-JavaScript 
 
 **[TokenForge](https://github.com/midya8/tokenforge)**
 
-Byte-level BPE tokenizers trained from scratch: deterministic merge training
-with exact pair counts over GPT-2-style pre-tokenization boundaries,
-rank-ordered encoding with exact round trips, JSON vocab persistence, and
-compression statistics with JSON/Markdown reports and a CI quality gate.
-Dependency-free Python, 40 unit tests, a fully offline demo, and CI across
-Python 3.10-3.13.
+Optional occurrence-indexed BPE training with exact original merges and saved artifacts. Live pair sets, linked positions and a lazy heap replace repeated recounting, while the unchanged scan stays the default. An independent browser recounts every overlapping frequency, numeric tie and leftmost replacement on explicit byte rows. Structural work is not a speed, RAM or complexity result.
+
+49 Python tests retain all 40 originals; 4 Node/actual-Chrome tests check 27 full reports, 160 merge selections, 3,033 displayed pair rows, 24 responsive views and trusted exports. Independent Python and JavaScript small-row oracles each cover 2,555 settings, plus 250 native seeded multirow cases. An installed wheel reproduces original and new CLI modes outside the checkout. The original 1,227-byte corpus gives 44 identical merges and saved JSON bytes. Browser checks semantics, not native heap operations; no timing/RAM claim. [Open inspector](https://midya8.github.io/tokenforge/).
 
 **[RetrievalBench](https://github.com/midya8/retrievalbench)**
 
