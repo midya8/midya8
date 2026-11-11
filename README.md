@@ -415,6 +415,10 @@ Sparse mixture from scratch with an [interactive exact-route inspector](https://
 
 **[LoRALab](https://github.com/midya8/loralab)**
 
+Width is not predictive rank: exact rational factors and nonzero minors certify matrix/softmax quotient/finite-probe ranks, with independent Fraction/BigInt engines, a separate native verifier and explicit probe-blind counterexamples. All 124 original states retained; nonzero width 4/8 product rank 3 versus quotient rank 2. 39 Python/seven Node tests and installed replay. Exact linear-softmax functions, not rounded-runtime, saved-byte or training claims. [Exact rank inspector](https://midya8.github.io/loralab/rank.html).
+
+Earlier coordinate inspector, preserved:
+
 Same model, different factor-SGD step: independent Python/browser evaluators expose full factor-coordinate gradients, finite-step identities, matrix gauges and scalar compensation without claiming a new optimizer. All 124 original epoch boundaries, 31-scale sweeps and full exports remain visible. Width 2 reaches shifted accuracy 1.0000 with 67.7% of full fine-tuning's parameters, but retains less original accuracy (0.7556 versus 0.9556). 31 Python tests plus four Node/Chrome tests audit 54 full reports and 591,615 numbers; an isolated wheel reproduces the unchanged experiment. Synthetic finite classifier only, no LLM or causal claim. [Live inspector](https://midya8.github.io/loralab/).
 
 **[SpecLab](https://github.com/midya8/speclab)**
