@@ -431,6 +431,10 @@ Same model, different factor-SGD step: independent Python/browser evaluators exp
 
 **[SpecLab](https://github.com/midya8/speclab)**
 
+The v0.4 extension adds **exact within-proposal stopping**: keep-and-verify preserves the target law while a deliberately wrong censor-and-forget control gives full-sequence TV `1/8`. Complete stopped proposal trees and joint sequence/count laws, independent full-path verification and an editable BigInt inspector expose the selection bias. 61 Python + 4 Node/Chrome tests retain all earlier engines; all fixed caps and target-only remain visible. No production-library accusation or speedup claim. [Live stopping lab](https://midya8.github.io/speclab/).
+
+Earlier v0.3 record:
+
 Speculative decoding from scratch: greedy verification, exact stochastic residual correction and a prefix-conditioned oracle lookahead planner with no-draft action 0. Complete Bellman action/transition/slack certificates and full sequence/count laws keep probability correctness separate from assigned cost. Switching fixture: `23/10` hypothetical units versus best fixed `47/20`; score-work prices choose no speculation. 47 tests include exhaustive tiny-policy enumeration and independent joint-law checks, with all previous stochastic controls preserved. Five-job CI checks seven modes from an installed 12-module wheel. Full-known-table oracle only: planning overhead is unpriced, no real-LLM benchmark, measured latency or new-algorithm claim.
 
 **[StructGate](https://github.com/midya8/structgate)**
