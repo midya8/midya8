@@ -492,13 +492,15 @@ At most 12 supplied intervals and cap 0..4, with integer endpoints and penalties
 
 [Live policy inspector](https://midya8.github.io/agenttrace/capacity.html) · [Source](https://github.com/midya8/agenttrace) · [Exact contract and sources](https://github.com/midya8/agenttrace/blob/main/CAPACITY.md)
 
-**[PromptGuard](https://github.com/midya8/promptguard)**
+**[PromptGuard: an allowance is not unlimited](https://github.com/midya8/promptguard)**
 
-Local-first prompt linting with a full-stage baseline and CI-gate witness. Native fixes redact before truncation, retain all recognized sensitive matches per line and fail incomplete scans. An [independent policy inspector](https://midya8.github.io/promptguard/) recomputes every abstract finding through filter, suppression and gate stages with complete JSON export.
+An opt-in actual-scanner baseline limits how many equal-identity findings can be suppressed. One prior allowance suppresses one of three current occurrences; two remain reported, while the legacy set suppresses all three. Inspect exact path/severity identity, every before/after allowance, unused entry and gate decision. The original scanner patterns, v1 baseline and prior policy inspector stay unchanged.
 
-- 87 Python tests on 3.10-3.13 preserve all original 68 tests, fixtures and offline demo; 13,320 exhaustive small policy controls.
-- 27 complete independent reports, actual Chrome checks of 50 current rows, 17 prior rows and 181 stage circles, plus isolated installed-wheel reproduction across eight module origins.
-- Existing scanner/report formats remain. Fingerprint aliases and metadata-identity migration are explicit; real baselines and witnesses must stay private. No new detection patterns or security-effectiveness claim.
+100 Python tests retain all 87 prior tests byte-for-byte; seven Node/actual-Chrome tests retain all three originals. Independent occurrence-rank references cover 4,374 exhaustive controls, 200 seeded complete native/browser reports and 162 browser duplicate-count controls. All 24 complete reports include 52 current rows, 32 prior rows, 22 quota entries, 52 legacy-control rows and 104 SVG marks. Chrome checks every displayed row, full selected record, gate/payload, stale/invalid state, 320/390/1280 containment and two trusted exports replayed through native CLI. Separate installed API/module/console reproduces all reports and actual scanner duplicate-contact gates, plus the original eight-module wheel, 27 audits, adapters and offline demo.
+
+Exact path spelling is not repository isolation. Equal-identity occurrences are interchangeable, not historically tracked: reordering can change which line survives. A manually editable quota is not acceptance provenance or safety; a hash is not anonymity. No new detection patterns, security-effectiveness or new-method claim, and no automatic v1 migration. Missing/malformed quotas fail closed; incomplete scans cannot write quotas. Atomic replacement preserves previous quota bytes on a write/replace failure. Public fixtures use only abstract tags and reserved-domain contacts; real witnesses remain private.
+
+[Live quota inspector](https://midya8.github.io/promptguard/quota.html) · [Source](https://github.com/midya8/promptguard) · [Contract, limits and credited sources](https://github.com/midya8/promptguard/blob/main/QUOTAS.md)
 
 **[ScratchGPT](https://github.com/midya8/scratchgpt)**
 
