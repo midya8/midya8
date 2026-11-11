@@ -8,6 +8,16 @@ agentic systems and workflow automation.
 
 ### Projects
 
+**[EmbedKit0.3: exact finite retry sampler audit](https://github.com/midya8/embedkit)**
+
+EmbedKit now audits the noise behind its negatives. The unchanged sampler excludes positive context and earlier negatives, retries20 times, then returns the first eligible sorted word. Native Fraction and independent browser BigInt count exact53-bit proposal intervals and propagate every reachable bounded subset state, with finite retry versus unlimited conditional rejection on the same proposals.
+
+61 Python tests retain all53 prior tests and40 original trainer tests. Eight Node/actual-Chrome tests retain all4 prior tests;33 complete reports agree on2,085 exact rational strings and3,682 numeric values, with maximum normalized decimal-display delta2.22e-16. Independent enumeration checks10,844 small-grid random tuples and289 unlimited-conditional ordered paths. Scripted calls exercise1,659 actual original-sampler grid boundaries plus success/retry/fallback consumption. All195 witness states,20 responsive views and2 trusted downloads are checked. A fresh10-module installed package reproduces original training/19 old step reports and all33 sampler reports through both new entrypoints.
+
+Source feature/PR/main checks and Pages deployment were verified before this showcase update. Exact probabilities assume independent uniform-grid proposals, not a true-IID claim about deterministic PRNG output or an exact fixed-seed joint law. Multi-draw audits are bounded to8 words; the unchanged32-word synthetic corpus is one draw only. Final subset TV is not ordered-sequence TV, and inclusion weights do not imply expected changing-vector SGD updates. Expected fallback events are not probability of any fallback. Undefined unlimited rejection at zero eligible mass stays undefined. No training-quality, speed, generalization or new-algorithm claim.
+
+[Live sampler audit](https://midya8.github.io/embedkit/sampler.html) · [Math and scope](https://github.com/midya8/embedkit/blob/main/SAMPLER.md)
+
 **[QuantLab0.3: activation integer dot products](https://github.com/midya8/quantlab)**
 
 QuantLab now traces activation × weight integer dot products, not only packed weights. A fixed user-declared activation range produces signed 8-bit codes; every integer product and partial accumulator stays visible. Exact rational witnesses separate weight error from activation error. The constructed default has zero weight error, yet activation rounding changes a strict row-1 winner into a zero-code tie won by row 0.
@@ -423,12 +433,6 @@ Independent full-tensor attention/cache inspector with final-query-only no-cache
 A real manually differentiated attention trainer with a fixed-weight intervention workbench. Independent JavaScript recomputes all downstream tensors after head-output ablations, exposes all 16 head subsets on the original 128-example held-out split, and tests matched key/filler changes. Complete trained and same-seed initialization checkpoints, all source weights and full audit exports. Repairs a clipped-loss/nonzero-gradient mismatch with stable log-sum-exp. 59 Python tests retain all 46 originals; three Node/actual-Chrome tests compare 352 full tensor reports and 22 audits, with 704 displayed head-row views. One seed and synthetic task, zero-ablation distribution shift and nonadditivity visible; no attention-as-explanation or discovered-circuit claim.
 
 [Live workbench](https://midya8.github.io/attnlens/) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/attnlens.md)
-
-**[EmbedKit](https://github.com/midya8/embedkit)**
-
-Independent editable SGNS objective and gradient inspector: every sampled event, 1,593 coordinate finite differences, real sequential replay versus a frozen simultaneous step, and visible clamp/order effects. Twelve original pairs capture 72 actual calls; seven labeled controls expose repetition, conflicting labels, saturation and overshoot. Full 300-sentence corpus and all 32 trained vectors retained; browser recomputes all 992 cosine neighbors. 53 Python tests and four Node/actual-Chrome tests compare 19 complete reports. Original 40 tests, trainer and gates remain unchanged.
-
-[Live inspector](https://midya8.github.io/embedkit/) · [Math & replay contract](https://github.com/midya8/embedkit/blob/main/STEP.md)
 
 **[PlanBench](https://github.com/midya8/planbench)**
 
