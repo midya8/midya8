@@ -27,7 +27,7 @@ Most repos here follow the same habit: implement the thing from scratch, hand-de
 | [LatentLab](https://github.com/midya8/latentlab) | Gaussian VAE from scratch, all 150 pathwise gradients independently checked |
 | [HamiltonLab](https://github.com/midya8/hamiltonlab) | Hamiltonian Monte Carlo from scratch with full rejection histories |
 | [ParticleLab](https://github.com/midya8/particlelab) | Bootstrap particle filtering with complete log-weight and ancestry records |
-| [ChainLab](https://github.com/midya8/chainlab) | Hidden Markov models: log-space inference, Viterbi and Baum-Welch |
+| [ChainLab](https://github.com/midya8/chainlab) | [Path decisions and uncertainty](https://midya8.github.io/chainlab/paths.html): exact HMM decoding losses, supported paths and whole-path entropy; original trainer and prefix inspector retained |
 | [KernelLab](https://github.com/midya8/kernellab) | Gaussian-process regression and expected-improvement search from scratch |
 | [DistillLab](https://github.com/midya8/distilllab) | Knowledge distillation from scratch, compared against matched controls |
 | [MoeLab](https://github.com/midya8/moelab) | Exact one-table gate regret, capacity dispatch and independent vertex checks |
