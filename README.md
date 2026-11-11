@@ -482,21 +482,15 @@ A separate exact clustered sign-flip audit for common-task model comparisons. Ea
 
 Supplied cluster labels do not establish joint symmetry or randomization. Marginal symmetry is insufficient for a joint maximum; no universal strong-FWER, model-superiority or automatic-gate claim. The original paired/adapter/scorer harness stays intact. [Live family inspector](https://midya8.github.io/evalforge/family.html) · [Contract and sources](https://github.com/midya8/evalforge/blob/main/FAMILY.md)
 
-**[AgentTrace](https://github.com/midya8/agenttrace)**
+**[AgentTrace 0.2: keep the value, respect the overlap](https://github.com/midya8/agenttrace)**
 
-Local-first validation, analysis and reporting for AI agent execution
-traces: JSONL structure checks, run summaries, tool/LLM call counts, latency
-and cost rollups, graph depth, repeated-step loop detection, baseline/candidate
-regression comparison, CI-friendly quality gates, a standalone escaped HTML
-timeline, deterministic JUnit XML output for CI test viewers, Markdown
-job summaries, and SARIF 2.1.0 output for code-scanning integrations.
-Dependency-free Python, 57 unit tests (original 33 retained), a fully offline
-fixed-trace baseline/candidate demo that validates JUnit, Markdown and SARIF
-output, and CI across Python 3.10-3.13.
+A separate exact fixed-interval retention policy under a supplied overlap cap. With one lane, two touching spans worth 6 each beat one enclosing span worth 9. Native integer min-cost flow exposes every edge, flow, canonical potential and residual reduced cost, with a matching primal/dual bound and exact zero gap. The original trace validator, analyzer, timing inspector and gates stay unchanged.
 
-Full-record graph/timing inspector: every endpoint, interval segment, parent path/relation, normalized record and p95 term. Independent Python/JavaScript recomputation and current JSON export. 57 Python tests retain all original 33 tests; 24 synthetic controls, 11,110 interval checks and an isolated installed-wheel reproduction. Parent links are not causal dependencies; recorded coverage/overlap is not CPU, idle, waste or utilization. No model/API call.
+64 Python tests retain all 57 prior tests; seven Node/actual-Chrome tests retain all three prior tests. Independent full-subset/unit-cell references check 250 seeded inputs at all five capacities; 120 larger controls check feasibility and certificates. Python Bellman-Ford successive shortest paths and independent browser subset enumeration/Floyd-Warshall agree on 24 full reports, 113 interval rows, 124 segments, 120 frontier entries, 222 network edges and 241 residual arcs. Chrome checks every displayed row, timeline geometry, stale/invalid state, 320/390/1280px containment and two trusted exports replayed through native CLI. Separate isolated API/module/console and original eleven-module wheel checks pass.
 
-[Live graph/timing inspector](https://midya8.github.io/agenttrace/)
+At most 12 supplied intervals and cap 0..4, with integer endpoints and penalties. Half-open touching spans share a hypothetical lane; zero-length points consume no cap by explicit convention. Primary penalty ties use the smallest retained input-order bitmask, not all primary optima. No trace deletion, inferred real workers, dependency-safe cancellation, counterfactual duration, measured savings or quality claim. Established fixed-interval flow method with credited sources, original implementation and synthetic fixtures.
+
+[Live policy inspector](https://midya8.github.io/agenttrace/capacity.html) · [Source](https://github.com/midya8/agenttrace) · [Exact contract and sources](https://github.com/midya8/agenttrace/blob/main/CAPACITY.md)
 
 **[PromptGuard](https://github.com/midya8/promptguard)**
 
