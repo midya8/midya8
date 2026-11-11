@@ -447,6 +447,8 @@ A real manually differentiated attention trainer with a fixed-weight interventio
 
 [Live workbench](https://midya8.github.io/attnlens/) · [Case study](https://github.com/midya8/Midya-portfolio/blob/main/projects/attnlens.md)
 
+Actual [online causal inference](https://midya8.github.io/attnlens/online.html) adds inspectable blockwise running-max/normalizer/value accumulators on the real checkpoints, complete residual-stack logits and independent dense controls. 76 Python/six Node tests; 106 full-model + 80 kernel reports; actual Chrome 2,112 head/query views and two real downloads replayed natively. Original training/interventions intact. Bounded score-buffer count only, not total memory or speed; dense/debug audits remain quadratic. Standard prior algorithm, no GPU/FlashAttention or new-method claim.
+
 **[PlanBench](https://github.com/midya8/planbench)**
 
 Exact finite retry-risk analysis for supplied agent DAGs. Inspect the joint plan-success, completion-time and cost law, including exhausted retries, skip cascades and shared ancestors. A cheap failed run can satisfy a budget by skipping the work: within-limit probability is not successful-completion probability. The original seeded simulator stays unchanged.
