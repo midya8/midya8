@@ -471,9 +471,15 @@ Optional occurrence-indexed BPE training with exact original merges and saved ar
 
 49 Python tests retain all 40 originals; 4 Node/actual-Chrome tests check 27 full reports, 160 merge selections, 3,033 displayed pair rows, 24 responsive views and trusted exports. Independent Python and JavaScript small-row oracles each cover 2,555 settings, plus 250 native seeded multirow cases. An installed wheel reproduces original and new CLI modes outside the checkout. The original 1,227-byte corpus gives 44 identical merges and saved JSON bytes. Browser checks semantics, not native heap operations; no timing/RAM claim. [Open inspector](https://midya8.github.io/tokenforge/).
 
-**[RetrievalBench](https://github.com/midya8/retrievalbench)**
+**[RetrievalBench: every ranking is a vote](https://github.com/midya8/retrievalbench)**
 
-Complete BM25 arithmetic, explicit chunk parents, both parent budgets and per-rank metric gains with independent browser recomputation. 68 Python tests retain all 42 originals; 35 full reports, three Node/Chrome tests and installed-wheel reproduction. Synthetic arithmetic controls, not search-quality evidence. Complete rankings, discarded duplicates and ideal metric denominators stay visible. Default CLI budget/results preserved; no Lucene equivalence or broad quality claim. [Open inspector](https://midya8.github.io/retrievalbench/).
+Exact weighted rank fusion, source prefixes and repeated votes are now inspectable end to end. An opt-in fuse-search command runs the original exhaustive BM25 index on explicitly supplied query variants, then fuses admitted prefixes using standard reciprocal rank fusion. Source scores never enter fusion; all original BM25 search, evaluation and audit commands retain their behavior.
+
+80 Python tests retain all 68 existing tests unchanged. Seven Node/actual-Chrome tests retain all three existing tests. Independent Python Fraction and source-first BigInt arithmetic reproduce 230 complete reports: 2,006 candidate rows, 9,674 candidate/source contribution cells, 6,416 raw entries and 16 actual original-BM25 query-variant pipelines. Native controls include 432 exhaustive permutation/depth/constant comparisons, 200 conservation/order/weight-scaling controls and 100 random actual-BM25 pipeline comparisons. Installed-wheel checks verify nine module origins, every report/pipeline, both new CLI commands and invalid-output preservation.
+
+Every missing versus beyond-depth rank, zero-weight candidate, duplicate ranking, exact fraction and inside/outside cutoff gap stays visible. Final k is separate from source depth. Exact score ties use printable ASCII document-id order, and zero-score candidates remain eligible. Duplicate sources add influence, not independent evidence. The browser replays supplied rankings exactly; it does not claim exact cross-language BM25 logarithms. Standard RRF is credited to Cormack, Clarke and Buettcher, SIGIR 2009. No new method, semantic-relevance improvement, calibrated confidence, speed, causal effect or vendor parity is claimed.
+
+[Live exact fusion inspector](https://midya8.github.io/retrievalbench/fusion.html) · [Source and CLI](https://github.com/midya8/retrievalbench) · [Contract, bounds and inspected sources](https://github.com/midya8/retrievalbench/blob/main/FUSION.md)
 
 **[EvalForge 0.2: one family, shared cluster signs](https://github.com/midya8/evalforge)**
 
