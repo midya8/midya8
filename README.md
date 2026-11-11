@@ -446,11 +446,9 @@ A real manually differentiated attention trainer with a fixed-weight interventio
 
 **[PlanBench](https://github.com/midya8/planbench)**
 
-Validation and deterministic simulation of agent task plans before they run:
-semantic DAG checks (unknown tools, cyclic dependencies, unproduced inputs),
-a seeded parallel simulator with flaky tools, retries and skip cascades, and
-makespan/cost/critical-path/parallelism metrics with CI gates. Dependency-free
-Python, 29 unit tests, a fully offline demo, and CI across Python 3.10-3.13.
+Exact finite retry-risk analysis for supplied agent DAGs. Inspect the joint plan-success, completion-time and cost law, including exhausted retries, skip cascades and shared ancestors. A cheap failed run can satisfy a budget by skipping the work: within-limit probability is not successful-completion probability. The original seeded simulator stays unchanged.
+
+39 Python tests retain all 29 originals; four Node/actual-Chrome tests compare 28 complete Fraction/BigInt reports, 260 terminal histories, 177 joint atoms, 778 selected step rows, 24 responsive views and native-replayed trusted exports. An independent Bernoulli-bit/completion-event oracle checks 65 seeded DAGs and retry boundaries. An installed wheel reproduces both new CLI entrypoints and original validate/simulate gates outside the checkout. Supplied independent failures, not production forecasts; no resource contention or correlated outages. [Open risk inspector](https://midya8.github.io/planbench/).
 
 **[DecodeLab](https://github.com/midya8/decodelab)**
 
