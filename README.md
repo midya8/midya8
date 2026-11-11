@@ -30,7 +30,7 @@ Most repos here follow the same habit: implement the thing from scratch, hand-de
 | [ChainLab](https://github.com/midya8/chainlab) | Hidden Markov models: log-space inference, Viterbi and Baum-Welch |
 | [KernelLab](https://github.com/midya8/kernellab) | Gaussian-process regression and expected-improvement search from scratch |
 | [DistillLab](https://github.com/midya8/distilllab) | Knowledge distillation from scratch, compared against matched controls |
-| [MoeLab](https://github.com/midya8/moelab) | Mixture-of-experts capacity dispatch with an exact rational allocator |
+| [MoeLab](https://github.com/midya8/moelab) | Exact one-table gate regret, capacity dispatch and independent vertex checks |
 | [LoRALab](https://github.com/midya8/loralab) | LoRA rank auditing: exact minors versus what actually predicts |
 | [AlignLab](https://github.com/midya8/alignlab) | [Preference identification](https://midya8.github.io/alignlab/identification.html): the same observed comparisons can fit different Gibbs policies; exact cycle checks and explicit scale bounds, alongside the original optimizer inspector |
 | [SpecLab](https://github.com/midya8/speclab) | Speculative decoding with stopping-law audits |
