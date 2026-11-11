@@ -524,6 +524,8 @@ historical 419,328-parameter Shakespeare checkpoint is unchanged. The replay is
 a separate synthetic model; the browser does not train. No cross-machine
 bitwise or new performance claim.
 
+Actual [activation rematerialization](https://midya8.github.io/scratchgpt/remat.html) now recomputes original NumPy transformer blocks during backward with upstream VJPs, guarded state and additive parameter/input gradients. A separate browser scalar-autograd GPT runs full backward, not stored gradients. 111 Python/eight Node tests retain all prior tests; 18 complete witnesses, 15,184 parameter positions, 61,888 cross-runtime fields, Chrome 106,288 table cells and two real downloads replayed natively. Every original 419,328-parameter checkpoint gradient is checked for both groupings, without retraining. Logical graph counts only, not RSS/peak memory/speed. Deterministic dropout=0, first-order only; original trainer and continuation unchanged. [Contract](https://github.com/midya8/scratchgpt/blob/master/REMATERIALIZATION.md).
+
 **[sre-toolkit](https://github.com/midya8/sre-toolkit)**
 
 Dependency-free Python utilities for day-to-day SRE work: error-budget and
