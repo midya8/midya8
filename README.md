@@ -410,6 +410,10 @@ v0.3 adds a separate target/rest KL chain-rule workbench: four teacher tails pre
 
 **[MoeLab](https://github.com/midya8/moelab)**
 
+The batch decides: an exact-rational capacity allocator retains every optimal dispatch, capacity-state witness, assignment count and eligibility bottleneck. Four full-strength greedy controls expose confidence-priority `51/100` versus global `49/50` gate mass; another tie has attained scalar-update MSE **0 to 25** within the same routing optimum. Independent exhaustive native replay and a separate BigInt engine check all leaves. 53 Python/nine Node tests, 14 controls, 98 real UI dispatches and both installed-wheel gates. Seven tokens/four experts, supplied gates, no new training, quality or speed claim. [Exact capacity inspector](https://midya8.github.io/moelab/capacity.html).
+
+Earlier routing-seam audit, preserved:
+
 Sparse mixture from scratch with an [interactive exact-route inspector](https://midya8.github.io/moelab/): Python Fraction and independent browser BigInt cells, point ties, one-sided jumps and fixed-branch derivatives. Rounded inference and exact affine geometry stay distinct; three balance statistics are not interchangeable. Original aux/no-aux/initialization, dense baseline and all 340 rows retained: aux MSE 0.0303 vs dense 0.1853, soft 0.6291, no-aux 0.0015, purity 1.0000 on the synthetic fixture. 39 Python + five Node/Chrome tests, 32 full witnesses and installed-wheel reproduction. No causal, generalization, robustness or serving-speed claim.
 
 **[AlignLab](https://github.com/midya8/alignlab)**
