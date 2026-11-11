@@ -425,14 +425,15 @@ Exact finite-horizon conditioning for a supplied first-order source and total DF
 
 64 Python tests retain all 54 previous tests; six Node/actual-Chrome tests retain all three previous tests. Independent complete-word checks cover 60 seeded small DFAs and all source/local/global marginals. Native Fraction backward recursion and independent BigInt full forward-kernel propagation agree on 24 complete reports, 2,043 future rows, 6,550 symbol rows and 2,239 marginal rows. Chrome checks all 156 selected-word prefixes, 24 responsive views and two natively replayed trusted downloads. An isolated eleven-module install reproduces all new reports through API, module and console, while the original nine-module wheel/demo/evaluation/gates remain intact. Supplied finite first-order source, not the original order-3 model or an LLM; standard conditioning, not a new decoding algorithm. [Open DFA inspector](https://midya8.github.io/structgate/automaton.html).
 
-**[RAGLine](https://github.com/midya8/ragline)**
+**[RAGLine: a zero can win](https://github.com/midya8/ragline)**
 
-Retrieval-augmented answering from scratch in pure Python: deterministic corpus,
-token-hashed sparse embeddings, top-k retrieval, extractive answers that cite
-their source chunk, and a lexical-overlap grounding check shown to flag a
-corrupted citation in a tested negative control. Fixture evaluation pinned in CI (recall@3 1.00, MRR 0.94, grounded
-1.00). Dependency-free Python, 31 unit tests, a fully offline demo, and CI
-across Python 3.10-3.13.
+An opt-in fixed-corpus signed-vector postings backend runs the actual retrieval loop. An unvisited, implicit zero can outrank a negative match; shared-bin products can cancel to zero. Complete raw-score stable ranking stays intact before slicing and six-decimal score display. The original scan remains the default, with unchanged extraction, citations and lexical grounding.
+
+49 Python tests retain all 31 originals byte-for-byte. Independent dense references cover 729 exhaustive signed-cube controls, 400 seeded real-vector matrices and 1,350 actual hashed-pipeline query/k comparisons. Four Node/actual-Chrome tests check 24 complete integer-engine reports plus 200 seeded native/browser reports, all 186 rows, 1,161 products and 186 signed SVG marks, stale/invalid state, 320/390/1280 containment and two trusted exports replayed natively. A separate installed wheel checks nine module origins, API/module/console reports, 45 real-pipeline fixture comparisons and both CLI gate sides.
+
+The browser is a bounded integer-vector ENGINE reference, not text/IDF pipeline parity. Native text-pipeline comparisons use the original scan within each supported Python runtime. A constructed 32×64 control visits one posting versus 2,048 dense dot-coordinate products, but query still makes all row scores and fully sorts the corpus. These are structural counts, not time, memory or semantic-quality gains. Construction retains a dense snapshot plus postings and cached norms; rebuild after corpus/fit changes. Signed collisions, extractive copying and lexical grounding retain their original limits. No new method or retrieval-quality claim.
+
+[Live engine inspector](https://midya8.github.io/ragline/) · [Source](https://github.com/midya8/ragline) · [Contract, limits and credited sources](https://github.com/midya8/ragline/blob/main/POSTINGS.md)
 
 **[KVLens](https://github.com/midya8/kvlens)**
 
