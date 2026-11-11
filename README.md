@@ -10,7 +10,7 @@ Most repos here follow the same habit: implement the thing from scratch, hand-de
 
 | Project | What it is |
 | --- | --- |
-| [ScratchGPT](https://github.com/midya8/scratchgpt) | GPT and a reverse-mode autograd engine written from scratch in NumPy, trained on TinyShakespeare |
+| [ScratchGPT](https://github.com/midya8/scratchgpt) | NumPy GPT with exact continuation, block recomputation and [cached inference](https://midya8.github.io/scratchgpt/cache.html) that rebuilds when the learned-position context moves |
 | [PPOlab](https://github.com/midya8/ppolab) | PPO from scratch in NumPy: clipped surrogate, GAE, hand-derived and numerically verified gradients |
 | [TagLab](https://github.com/midya8/taglab) | Linear-chain CRF implemented and trained by hand, every optimization state replayed |
 | [ForestLab](https://github.com/midya8/forestlab) | Random forests from scratch with exact Gini split ordering and an OOB inspector |
