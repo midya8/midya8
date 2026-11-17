@@ -2,7 +2,7 @@
 
 I'm a Toronto-based technologist with 12+ years across technology, financial services and telecommunications. These days most of my build time goes into large language models, agentic systems and workflow automation.
 
-I learn things by building them from scratch, usually in NumPy, small enough to run on a laptop, with tests and an honest write-up of what worked and what didn't.
+I learn things by building them from scratch, usually in NumPy, small enough to run on a laptop, with tests and a short write-up of what worked and what didn't.
 
 ### A few things I've built
 
