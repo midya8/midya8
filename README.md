@@ -2,7 +2,7 @@
 
 I'm a Toronto-based technologist with 12+ years across technology, financial services and telecommunications. Lately I spend most of my build time on large language models, agentic systems and workflow automation.
 
-Most repos here follow the same habit: implement the thing from scratch, hand-derive the math, then verify it independently (Python against browser BigInt/Fraction replays) instead of trusting that the optimizer or the library did the right thing. The "lab" repos are that habit applied across ML, game theory, causal inference and planning. A few are plain tools I actually use.
+This collection covers machine learning, inference, planning and developer tools. Most projects include runnable examples, tests and notes on what the results do and don't show.
 
 [Browse the searchable project index](https://midya8.github.io/Midya-portfolio/) | [Catalog and build contract](https://github.com/midya8/Midya-portfolio/blob/main/CATALOG.md)
 
@@ -12,12 +12,12 @@ Most repos here follow the same habit: implement the thing from scratch, hand-de
 | --- | --- |
 | [ScratchGPT](https://github.com/midya8/scratchgpt) | NumPy GPT with exact continuation, block recomputation and [cached inference](https://midya8.github.io/scratchgpt/cache.html) that rebuilds when the learned-position context moves |
 | [PPO with NumPy](https://github.com/midya8/ppo-numpy) | PPO from scratch in NumPy: clipped surrogate, GAE, hand-derived and numerically verified gradients |
-| [Linear chain crf](https://github.com/midya8/linear-chain-crf) | Linear-chain CRF implemented and trained by hand, every optimization state replayed |
+| [Linear-chain CRF](https://github.com/midya8/linear-chain-crf) | Linear-chain CRF implemented and trained by hand, every optimization state replayed |
 | [Random forests](https://github.com/midya8/random-forests) | Random forests from scratch with exact Gini split ordering and an OOB inspector |
 | [Logit boosting](https://github.com/midya8/logit-boosting) | Gradient boosting from scratch, optional Newton leaves on residual-SSE trees |
 | [Support-vector machines](https://github.com/midya8/svm-from-scratch) | Linear and RBF soft-margin SVM with replayable pair updates |
 | [Spectral clustering](https://github.com/midya8/spectral-clustering) | Spectral clustering with hand-written affinity, Laplacian and k-means stages |
-| [Kmeans clustering](https://github.com/midya8/kmeans-clustering) | k-means++/Lloyd on real UCI digits with full restart traces |
+| [k-means clustering](https://github.com/midya8/kmeans-clustering) | k-means++/Lloyd on real UCI digits with full restart traces |
 | [Gaussian mixture EM](https://github.com/midya8/gmm-em) | Gaussian mixture EM on UCI chemistry data with full likelihood accounting |
 | [Nonnegative matrix](https://github.com/midya8/nonnegative-matrix) | Nonnegative matrix factorization on UCI digits with browser-side decompositions |
 | [Rating factors](https://github.com/midya8/rating-factors) | Rating factorization for collaborative filtering via alternating ridge solves |
